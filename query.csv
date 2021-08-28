@@ -1,0 +1,1071 @@
+﻿id,Summary,Status,Type,Priority,Milestone,Component
+8813,"next_rev is slow, particularly in the direct-svnfs case",new,defect,highest,next-major-releases,version control
+5488,Translation of Trac to Turkish/Türkçe [tr_TR],new,task,normal,translations,i18n
+2611,"Problem with SVN bindings (SVN 1.3.0, Trac r2771)",new,defect,high,not applicable,version control
+8417,CachedRepository support in TracMercurial,new,enhancement,high,plugin - mercurial,plugin/mercurial
+12681,Restore the t.e.o specific customization after the switch to Jinja2,assigned,defect,high,1.4.4,project
+5474,Translation of Trac to French/Français [fr_FR],new,task,normal,translations,i18n
+8068,Mercurial bundle attachments should be viewable in readable representation.,new,enhancement,normal,plugin - mercurial,plugin/mercurial
+10896,Request-URI Too Large when submitting a Bug report,new,defect,normal,not applicable,general
+9619,"Side-by-side editing fails if Preview significantly longer than source; needs smart, vertical locking!",reopened,defect,low,1.0,wiki system
+7186,Translation of Trac to Argentinian Spanish/español de Argentina [es_AR],new,task,normal,translations,i18n
+10035,Possibility to apply rejected changes from log,new,enhancement,normal,plugin - spam-filter,plugin/spamfilter
+12664,Index defined on spamfilter_bayes table not added during database upgrades,new,defect,normal,plugin - spam-filter,plugin/spamfilter
+13031,Text captcha does not obey order of operations,new,defect,normal,plugin - spam-filter,plugin/spamfilter
+13289,Improve spam filtering monitoring page,new,enhancement,normal,plugin - spam-filter,plugin/spamfilter
+13321,SpamFilter plugin still using ITemplateStreamFilter,new,defect,normal,plugin - spam-filter,plugin/spamfilter
+5475,Translation of Trac to German/Deutsch [de_DE],new,task,normal,translations,i18n
+9040,Translation of Trac to Hebrew [he_HE],new,task,normal,translations,i18n
+5471,Translation of Trac to Japanese/日本語 [ja_JP],new,task,normal,translations,i18n
+13400,$wikipage.offset() is undefined wiki.js:63 from non-existent wiki page,assigned,defect,normal,1.4.4,wiki system
+13409,repository_dir record for Subversion is wrong,assigned,defect,normal,1.5.4,version control
+1726,"Links are displayed badly in Win/IE when page direction is changed to ""right-to-left""",new,defect,normal,translations,i18n
+5489,Translation of Trac to Italian/Italiano [it_IT],new,task,normal,translations,i18n
+5476,Translation of Trac to Portuguese/Português [pt_BR],new,task,normal,translations,i18n
+8991,Translation of Trac to Armenian [hy_AM],new,task,normal,translations,i18n
+5486,Translation of Trac to Hungarian/Magyar [hu_HU],new,task,normal,translations,i18n
+7177,Translation of Trac to Norwegian/bokmål [nb_NO],new,task,normal,translations,i18n
+5469,Translation of Trac to Spanish/Español [es_ES],new,task,normal,translations,i18n
+12858,Upgrade to jQuery 3,assigned,enhancement,normal,1.5.4,general
+12930,Spambayes dependency conflicts with dnspython,assigned,defect,normal,plugin - spam-filter,plugin/spamfilter
+13190,Create release packages on AppVeyor,assigned,enhancement,normal,1.5.5,general
+13191,"relative image size with ""em"" units",assigned,enhancement,normal,1.4.4,wiki system
+13247,Log warning if necessary environment directories are not writeable,assigned,enhancement,normal,next-stable-1.4.x,general
+13275,Improve option documentation,assigned,task,normal,1.5.5,general
+13276,Submit IP address to BadIP page,assigned,enhancement,normal,plugin - spam-filter,plugin/spamfilter
+13286,Add select all checkbox to Spam Filtering multiselect users page,assigned,enhancement,normal,plugin - spam-filter,plugin/spamfilter
+13301,"Remove ""Can't synchronize"" warnings or only show if user has TRAC_ADMIN",assigned,enhancement,normal,next-dev-1.7.x,version control
+13302,Display plugin enable/disable message near anchor,assigned,enhancement,normal,next-dev-1.7.x,admin/web
+13311,Toolbar button to quote text as a discussion citation,assigned,enhancement,normal,1.5.5,general
+7487,Translation of Trac to Slovene/Slovensko [sl_SI],new,task,normal,translations,i18n
+4431,wiki_to_wikidom,new,enhancement,highest,topic-wikiengine,wiki system
+53,plugin infrastructure for rendering diff HTML previews,new,enhancement,high,next-major-releases,version control/changeset view
+1084,Percentage complete,new,enhancement,high,next-major-releases,ticket system
+1113,Show milestone changes in timeline,new,enhancement,high,next-major-releases,timeline
+1386,Adding properties to Wiki Pages,new,enhancement,high,next-major-releases,wiki system
+1890,Can create tickets anonymously using the username of an authenticated user,new,defect,high,next-major-releases,general
+1962,Due dates on tickets & email notification on overdue dates,new,enhancement,high,next-major-releases,ticket system
+2035,Changeset commenting,new,enhancement,high,next-major-releases,version control/changeset view
+2463,Mandatory fields in tickets,new,enhancement,high,next-major-releases,ticket system
+3021,wiki namespace support like the one in dokuwiki,new,enhancement,high,next-major-releases,wiki system
+3098,"Support ""Descript.ion"" files in Browse Source",new,enhancement,high,next-major-releases,version control/browser
+3332,Mimeview API v2,new,enhancement,high,next-major-releases,rendering
+3370,"Custom query RSS feed differes from CSV, Tab files",new,enhancement,high,unscheduled,ticket system
+3386,Embedding part of Wiki in other Wiki (e.g. Help: prefix for the TracGuide),new,enhancement,high,next-major-releases,wiki system
+3470,improve handling of scoped repositories with copy history,new,defect,high,next-major-releases,version control
+3519,browse source - edit feature?,new,enhancement,high,next-major-releases,version control
+3718,Trac should use HTTP 301 Moved when milestones get renamed,new,enhancement,high,next-major-releases,general
+4080,[Patch] Detect charset using enca or chardet,new,enhancement,high,next-major-releases,version control/changeset view
+4245,[PATCH] Tickets are slow with large amount of users and permissions,new,defect,high,next-stable-1.4.x,general
+4790,a blockquote after a list gets nested into two <blockquote> tags,new,defect,high,topic-wikiengine,wiki system
+5648,DefaultPermissionGroupProvider not doing its whole job,new,defect,high,next-major-releases,general
+7014,"Trap  ""ZipImportError: bad local file header.. "" and suggest server restart",new,defect,high,next-major-releases,general
+7658,Option to disable automatic linking of CamelCase,new,enhancement,high,next-major-releases,wiki system
+7744,source:path@rev targeting a file below a copied dir may fail,new,defect,high,next-major-releases,version control/browser
+7871,Add start date to a milestone,new,enhancement,high,next-major-releases,general
+8140,nested lists with multiple paragraphs should work properly,new,enhancement,high,topic-wikiengine,wiki system
+8499,Cannot obtain link to paragraph/section when reST used,new,enhancement,high,unscheduled,wiki system
+8509,[PATCH] use precompiled regex for match_request,new,defect,high,next-major-releases,web frontend
+8645,More readable header IDs,new,defect,high,next-major-releases,wiki system
+9037,Incorporate footnotes into Trac (for use in documentation),new,enhancement,high,next-major-releases,wiki system
+9574,add filters to TicketQuery from query string arguments,new,enhancement,high,next-major-releases,wiki system
+9643,[Patch] Ticket search by query with auto completion,new,enhancement,high,next-major-releases,search system
+9648,[PATCH] Improve ticket fields with tooltips,new,enhancement,high,next-major-releases,ticket system
+9879,wiki_to_text(),new,enhancement,high,unscheduled,wiki system
+9936,CSS and JS files should be versioned,new,enhancement,high,next-major-releases,web frontend
+10178,[PATCH] Allow TracQueries to order on multiple columns,new,enhancement,high,next-major-releases,query system
+150,User-centric storage. Last-viewed information and 'intelligent' followup,new,enhancement,normal,unscheduled,general
+221,Creating TR for multiple components,new,enhancement,normal,next-major-releases,ticket system
+425,Wiki page name need to support digits and periods,new,enhancement,normal,next-major-releases,wiki system
+508,'Related checkins' feature,new,enhancement,normal,unscheduled,ticket system
+515,Collapsible diff display,new,enhancement,normal,next-major-releases,version control/changeset view
+611,Backlinks,new,enhancement,normal,next-major-releases,wiki system
+695,Keywords for wiki pages,new,enhancement,normal,next-major-releases,wiki system
+710,Add basic time tracking,new,enhancement,normal,next-major-releases,ticket system
+731,"Allow Trac to send commit information email when the "" sync ""with the repository",new,enhancement,normal,unscheduled,notification
+756,trac-admin initenv might prompt for a wiki-default path,new,enhancement,normal,next-major-releases,admin/console
+791,"login/logout, authentication, and authorization",new,enhancement,normal,next-major-releases,general
+918,[patch] Custom Ticket Fields should support the multiple selection type,new,enhancement,normal,next-major-releases,ticket system
+920,Disable purging of user settings,new,enhancement,normal,unscheduled,general
+925,[PATCH] Allow wiki syntax in labels for custom fields,new,enhancement,normal,unscheduled,ticket system
+978,Specify InterTrac context for a repository,new,enhancement,normal,next-major-releases,version control
+1024,Each section should have a edit button,new,enhancement,normal,topic-wikiengine,wiki system
+1120,Delete all changes made from given IP.,new,enhancement,normal,unscheduled,wiki system
+1132,Use Subversion (or the source repository) for Trac's data as well,new,enhancement,normal,next-major-releases,general
+1135,Component filter for the Timeline,new,enhancement,normal,unscheduled,timeline
+1233,Descriptions of Components,new,enhancement,normal,next-dev-1.7.x,ticket system
+1240,Persistent   [[Timestamp]],new,enhancement,normal,topic-wikiengine,wiki system
+1242,[ER] Generalized automatic cross-references in Trac,new,enhancement,normal,next-major-releases,wiki system
+1268,Search for a revision/ticket/report number should find that changeset/ticket/report,new,enhancement,normal,unscheduled,search system
+1329,Ticket Search should (optionally) search only non-closed tickets,new,enhancement,normal,next-major-releases,ticket system
+1380,trac-admin wiki dump doesn't include attachments,new,defect,normal,unscheduled,attachment
+1381,view files by date as well as revision number,new,enhancement,normal,unscheduled,version control
+1493,attachment revision history,new,defect,normal,unscheduled,attachment
+1505,Search all projects at once,new,enhancement,normal,topic-multiproject,search system
+1513,Multi-language support in the wiki,new,enhancement,normal,next-major-releases,wiki system
+1520,Highlight TracLinks in browser,new,enhancement,normal,next-major-releases,wiki system
+1796,Stylesheet for Docutils output,new,enhancement,normal,next-major-releases,rendering
+1804,[Patch] Strip off realm from usernames when using Kerberos,new,defect,normal,next-major-releases,general
+1835,Add a discussion tab for Trac resources,new,enhancement,normal,unscheduled,general
+1936,indented ordered and unordered lists have additional bullets and numbers,new,defect,normal,topic-wikiengine,wiki system
+1943,Add support for date calculations in ticket reports/querys,new,enhancement,normal,unscheduled,report system
+1947,Nicer handling of bugtraq properties,new,enhancement,normal,unscheduled,version control/browser
+2036,Inconsistent sub-menu on Browse Source comparing with View Tickets,new,defect,normal,next-major-releases,report system
+2064,Timeline WikiFormatting mis-parses WikiLinks with aliases.,new,defect,normal,topic-wikiengine,wiki system
+2141,Upload more than one attachment at a time,new,enhancement,normal,next-major-releases,attachment
+2162,trac-admin needs a -q for quiet automated operation,new,enhancement,normal,unscheduled,admin/console
+2382,WebAdmin: resync from the web interface,new,enhancement,normal,next-major-releases,version control
+2390,search isn't case and accent insensitive,new,defect,normal,unscheduled,search system
+2443,User list in milestone view per owner,new,defect,normal,unscheduled,roadmap
+2456,Implement API for user management,new,enhancement,normal,next-major-releases,general
+2464,Conditional fields in tickets,new,enhancement,normal,next-major-releases,ticket system
+2465,"Add ""custom query"" functionality for changesets",new,enhancement,normal,next-major-releases,version control/changeset view
+2469,timeline should show my own tickets in bold,new,enhancement,normal,next-major-releases,timeline
+2566,Trac browser should browse SVN symbolic links,new,defect,normal,unscheduled,version control
+2581,[PATCH] Add Paste Deploy support to the WSGI branch,new,enhancement,normal,unscheduled,general
+2588,Option to show the latest completed milestone,new,enhancement,normal,next-major-releases,roadmap
+2625,Add option to send HTML mail messages,new,enhancement,normal,next-major-releases,notification
+2636,browsing a directory with many files takes a long time,new,enhancement,normal,next-major-releases,version control/browser
+2639,Add userid/author in RSS feeds for repository commit information,new,enhancement,normal,next-major-releases,timeline
+2656,Make built-in documentation independent from wiki,new,enhancement,normal,next-major-releases,wiki system
+2662,assign tickets to multiple users,new,enhancement,normal,next-major-releases,ticket system
+2695,[PATCH] Pretty icons for various file types.,new,enhancement,normal,next-major-releases,version control/browser
+2702,markdown support,new,enhancement,normal,next-major-releases,wiki system
+2733,Push some more behaviour to the vc backend,new,enhancement,normal,next-major-releases,version control
+2775,Automatic matching of similar issues,new,enhancement,normal,unscheduled,ticket system
+2810,More complete Roadmap: Gantt and Pert,new,enhancement,normal,unscheduled,roadmap
+2827,Preview attachments in main ticket (or wiki) window,new,enhancement,normal,next-major-releases,attachment
+2855,"Add aggregation functions (SUM, MAX, AVG) of ticket columns to the custom query options",new,enhancement,normal,unscheduled,general
+2880,Ignore svn properties / trees in timeline,new,enhancement,normal,unscheduled,timeline
+2908,"No 'register' link (only Login), 'New Ticket' -> 'login' difficult",new,defect,normal,unscheduled,ticket system
+2961,custom comment fields,new,enhancement,normal,next-major-releases,ticket system
+3003,milestone could be a ticket,new,enhancement,normal,unscheduled,ticket system
+3022,Remove ROADMAP_ADMIN,new,enhancement,normal,next-major-releases,roadmap
+3026,Read-only milestone linking to external trac projects,new,enhancement,normal,unscheduled,roadmap
+3080,Custom field sorts only as text,new,enhancement,normal,next-major-releases,general
+3102,Suggestion: Some Very Cool Features,new,enhancement,normal,unscheduled,general
+3156,Export Milestone to CSV,new,enhancement,normal,unscheduled,roadmap
+3162,LDAP support for  e-mail notification,new,enhancement,normal,next-major-releases,notification
+3236,Support for a merge change type in version control API,new,enhancement,normal,next-major-releases,version control
+3251,A documentation about components should be added,new,enhancement,normal,next-major-releases,wiki system
+3273,Add REGEXP support to SQL queries,new,enhancement,normal,next-major-releases,report system
+3302,Add Permission Change Hooks to Trac,new,enhancement,normal,next-major-releases,general
+3307,Wiki pragma directives,new,enhancement,normal,topic-wikiengine,wiki system
+3320,Custom fields can't be hidden,new,enhancement,normal,next-major-releases,ticket system
+3511,quick access to favorite reports/queries,new,enhancement,normal,next-major-releases,report system
+3584,"[PATCH] Zip file names should match the latest version of their contents, not of the whole repository",new,enhancement,normal,next-major-releases,version control/browser
+3689,"patch for mimeviewer: autodetect charset by ""# -*- coding: windows-1251 -*-""",new,enhancement,normal,next-major-releases,version control/browser
+3694,Code coloring in diff,new,enhancement,normal,unscheduled,version control/changeset view
+3695,Enable Generic Navigation Item Ordering,new,enhancement,normal,unscheduled,general
+3737,"login-id, trac-nick",new,enhancement,normal,next-major-releases,general
+3749,recent ticket-comments macro,new,enhancement,normal,next-major-releases,ticket system
+3785,Regular Expression Match against custom field values,new,enhancement,normal,unscheduled,ticket system
+3794,Invalid table(with indentation) layout in wiki.,new,defect,normal,topic-wikiengine,wiki system
+3841,commit after adding attachments to tickets,new,defect,normal,next-major-releases,attachment
+3895,Provide Trac API for returning all outbound links in a page,new,enhancement,normal,topic-wikiengine,wiki system
+3906,Request for a files search (no indexing just plain find like search),new,enhancement,normal,next-major-releases,version control/browser
+3911,"implement an object system (xwiki, roundup)",new,enhancement,normal,next-major-releases,general
+3914,"ticket change notification should contain diff'ed text, not old and new",new,enhancement,normal,next-dev-1.7.x,notification
+3970,Wiki parsing error when using exclamation at the end of phrase,new,defect,normal,topic-wikiengine,wiki system
+4022,Provide Etag and/or Last-Modified HTTP headers to ease cache control,new,defect,normal,next-major-releases,wiki system
+4048,Diff between repositories,new,enhancement,normal,next-major-releases,version control
+4130,Ticket Component Interface Fails to Properly Check for Existing Component,new,defect,normal,next-major-releases,ticket system
+4140,Merge OutlineFormatter into Formatter,new,defect,normal,topic-wikiengine,wiki system
+4160,Broken InterWiki Link,new,defect,normal,next-major-releases,version control/log view
+4173,"When ""View Ticket"" is selected, sub-options should always be visible.",new,enhancement,normal,unscheduled,ticket system
+4224,Using SVN AUTHZ groups to map to group permissions in Trac,new,enhancement,normal,next-major-releases,admin/web
+4226,tracd: access control for list of projects,new,enhancement,normal,unscheduled,web frontend/tracd
+4270,Ticket notification emails contain wiki formatting,new,defect,normal,next-major-releases,notification
+4286,Accepts email addresses without validation,new,defect,normal,next-major-releases,notification
+4292,ROADMAP_VIEW / MILESTONE_VIEW privilege,new,defect,normal,next-major-releases,roadmap
+4298,tickets linked to multiple versions,new,enhancement,normal,next-major-releases,ticket system
+4398,Inconsistent search for single-digit tickets,new,defect,normal,next-major-releases,search system
+4412,batch copy/rename wiki pages,new,enhancement,normal,next-major-releases,wiki system
+4423,provide page decorators using wiki syntax,new,enhancement,normal,unscheduled,general
+4468,better support for relative name handling,new,defect,normal,next-major-releases,wiki system
+4474,diffing two large trees results in a massive list with a lot of empty links,new,defect,normal,next-stable-1.4.x,version control/changeset view
+4492,Automatic backlinks for tickets based on document referer,new,enhancement,normal,unscheduled,wiki system
+4519,[PATCH] Feature: component owner ticket notification,new,enhancement,normal,next-dev-1.7.x,notification
+4536,render_unsafe_content in [4472]  could be restricted to read-only pages.,new,enhancement,normal,unscheduled,wiki system
+4549,"[PATCH] Ticket std/custom fields improvements - sql based values, order by, labels, value evals,  ...",new,enhancement,normal,next-major-releases,ticket system
+4560,IE7 Missing or invalid form token. Do you have cookies enabled?,new,defect,normal,,general
+4583,Prebuilt milestone description templates,new,enhancement,normal,unscheduled,roadmap
+4590,There is no interface for providing conversion over files or changeset like in wiki IContentConverter,new,enhancement,normal,next-major-releases,version control/browser
+4612,Changeset URL to contain the revision in the query string.,new,enhancement,normal,next-major-releases,version control
+4644,Report/Query result re-ordering should support secondary sort field.,new,enhancement,normal,unscheduled,report system
+4733,Option for all login links to use HTTPS,new,enhancement,normal,next-major-releases,general
+4746,intertrac links support in trac-post-commit hook,new,enhancement,normal,unscheduled,version control
+4778,simplified wikification of svn log messages,new,enhancement,normal,next-major-releases,wiki system
+4781,Scheduled report by mail to specific users,new,enhancement,normal,unscheduled,report system
+4788,show symlink info in source browser,new,enhancement,normal,next-major-releases,version control/browser
+4834,"Default ""from"" date in Timeline",new,enhancement,normal,unscheduled,timeline
+4848,Unable to return to previous indentation within wiki,new,defect,normal,topic-wikiengine,wiki system
+4854,UI Wart: Log viewer navigation links should be duplicated at the bottom of the page,new,enhancement,normal,next-major-releases,version control/log view
+4877,SVK merge property changes should be hiden from the timeline.,new,defect,normal,unscheduled,timeline
+4887,Option for changeset viewer to show added and deleted files inline,new,enhancement,normal,next-major-releases,version control/changeset view
+4923,manage the smtp/mail settings from within the WebAdmin plugin,new,enhancement,normal,unscheduled,admin/web
+4931,notification with SMTP through SSL is not supported (fix included),new,defect,normal,next-major-releases,notification
+5001,offer possibility to inform users of new releases and changes,new,enhancement,normal,next-major-releases,notification
+5031,Queries ought to support less/great than for ordered values (i.e. priorities and severities),new,enhancement,normal,next-major-releases,ticket system
+5059,PageOutline macro is hardcoded to truncate long names,new,defect,normal,topic-wikiengine,wiki system
+5121,trac-admin tool stdout flush problem,new,defect,normal,unscheduled,admin/console
+5177,"norobots option for: raw source code, rss, old source code",new,enhancement,normal,next-major-releases,version control/browser
+5211,Ticket - Wiki Integration enhancement/suggestion,new,enhancement,normal,next-dev-1.7.x,ticket system
+5219,custom query needs to be able to access ticket change table,new,enhancement,normal,unscheduled,query system
+5240,Expose Trac timeline data as JSON(P),new,enhancement,normal,unscheduled,timeline
+5246,[PATCH] Use permission system to store groups for authz access control,new,enhancement,normal,next-major-releases,version control/browser
+5367,New Priority Schema?,new,enhancement,normal,unscheduled,general
+5378,"ajax bandbox for input of milestone, component, assign to, and cc",new,enhancement,normal,unscheduled,ticket system
+5390,"Zip Archive: aliases, symlinks",new,defect,normal,next-major-releases,version control/browser
+5441,Timeline shows incomplete information about status changes for customized workflow,new,defect,normal,next-major-releases,timeline
+5470,Translation of Trac to Portuguese/Português [pt_PT],new,task,normal,translations,i18n
+5472,Translation of Trac to Chinese/中文 [zh_CN],new,task,normal,translations,i18n
+5473,Translation of Trac to Dutch/Nederlands [nl_NL],new,task,normal,translations,i18n
+5477,Translation of Trac to Korean/한국어 [ko_KR],new,task,normal,translations,i18n
+5478,Translation of Trac to Russian/Русский [ru_RU],new,task,normal,translations,i18n
+5480,Translation of Trac to Polish/Polski [pl_PL],new,task,normal,translations,i18n
+5481,Translation of Trac to Greek/Ελληνικά [el_GR],new,task,normal,translations,i18n
+5482,Translation of Trac to Traditional Chinese/正體中文  [zh_TW],new,task,normal,translations,i18n
+5499,performance issues when viewing larger files,new,defect,normal,next-stable-1.4.x,version control/browser
+5506,Confusing formatting for attachments in Timeline,new,defect,normal,next-major-releases,timeline
+5515,Empty changeset causes exception,new,defect,normal,next-stable-1.4.x,version control/changeset view
+5526,Support LIKE and wildcards in custom queries,new,enhancement,normal,next-major-releases,report system
+5535,[inherit] not working for me (error on missing config),new,defect,normal,next-major-releases,general
+5549,"Improve diff message ""no files""",new,defect,normal,next-stable-1.4.x,version control/changeset view
+5560,Email links on usernames in ui.,new,enhancement,normal,unscheduled,general
+5566,Postgresql admin security issue,new,defect,normal,next-major-releases,admin/console
+5580,Report Variable Forms,new,enhancement,normal,unscheduled,report system
+5589,Full text search in attachments,new,enhancement,normal,unscheduled,search system
+5592,Translation of Trac to Czech/Česky [cs_CZ],new,task,normal,translations,i18n
+5634,Request environment fragile and undocumented,new,defect,normal,unscheduled,general
+5641,Allow enums to be used in ticket custom value sets,new,enhancement,normal,next-major-releases,general
+5670,[patch] Refactoring of general `NotifyEmail` class to make it easier to subclass,new,enhancement,normal,next-major-releases,notification
+5720,Trac ticket query should be case insensitive.,new,defect,normal,next-stable-1.4.x,report system
+5850,Search Results Per Page Variable,new,enhancement,normal,next-major-releases,search system
+5856,Enterprise workflow enhancements for request info,new,enhancement,normal,next-major-releases,general
+5979,Add more option to filters with drop-downs in custom query,new,enhancement,normal,next-major-releases,query system
+5997,Clean name-spaces for CSS for 0.11+?,new,enhancement,normal,next-major-releases,general
+5999,From ticket to wiki : add links to ticket/comment metadata when appropriate,new,enhancement,normal,next-major-releases,ticket system
+6000,Multiple column support in timeline,new,enhancement,normal,unscheduled,timeline
+6002,[PATCH] Adds an options to customize the default history mode,new,enhancement,normal,next-stable-1.4.x,version control/log view
+6062,MediaWiki-style alternative wiki syntax,new,enhancement,normal,unscheduled,wiki system
+6135,Enhancement for trac-post-commit-hook.py for Enterprise Workflow,new,enhancement,normal,unscheduled,general
+6154,better formatted rss feed,new,enhancement,normal,next-major-releases,ticket system
+6158,"Use separate, multiple CSS classnames to enable more versatile stylesheet customization",new,enhancement,normal,next-major-releases,report system
+6160,Enhanced Query for All Tickets by Milestone + RFE for a new automatically detected datatype,new,enhancement,normal,next-major-releases,report system
+6173,"Allow accounts to be disabled, such that they no longer receive email notifications",new,enhancement,normal,next-major-releases,notification
+6211,IPermissionPolicy unable to grant WIKI_VIEW access,new,defect,normal,next-stable-1.4.x,general
+6219,Excessive time taken by notification can lead to db timeout?,new,defect,normal,next-major-releases,notification
+6226,Value for limit size of logfile,new,enhancement,normal,next-major-releases,general
+6235,[PATCH] Adding support for Ingres as a backend DB,new,enhancement,normal,unscheduled,database backend
+6249,Customized field labels for standard fields,new,enhancement,normal,next-major-releases,ticket system
+6302,Retrieve search results in RSS format,new,enhancement,normal,unscheduled,search system
+6330,'Back to query' when no query has been used,new,defect,normal,next-major-releases,ticket system
+6365,Show trac:summary (oneliner_properties) property at the directory level,new,enhancement,normal,next-major-releases,version control/browser
+6367,[PATCH] Etag responses need Vary header,new,defect,normal,next-stable-1.4.x,web frontend
+6382,Translation of Trac to Farsi/پارسی [fa_IR],new,task,normal,translations,i18n
+6411,Use mime type switching,new,enhancement,normal,unscheduled,rendering
+6474,svn:externals displayed as folder in listing,new,enhancement,normal,unscheduled,version control/browser
+6492,[PATCH] Change icons on timeline,new,enhancement,normal,next-major-releases,timeline
+6515,Trac detected an internal error: Session ID not set,new,defect,normal,next-major-releases,general
+6548,different types of ticket need different workflows,new,enhancement,normal,unscheduled,ticket system
+6599,redirect in trac browser after file got moved in svn,new,enhancement,normal,unscheduled,version control
+6615,svn:externals not correctly displayed in browser,new,defect,normal,unscheduled,version control/browser
+6629,Translation of Trac to Vietnamese/Tiếng Việt [vi_VN],new,task,normal,translations,i18n
+6630,single || in a line mistaken for table formatting,new,defect,normal,topic-wikiengine,wiki system
+6638,Allow file exclusions in diffs,new,enhancement,normal,next-major-releases,version control/changeset view
+6642,InterTracText  (or: Why not provide a web interface for InterTrac configuration),new,enhancement,normal,unscheduled,general
+6644,Authz_policy plugin doesn't work with [*],new,defect,normal,next-stable-1.4.x,general
+6682,"""binary files ... differ"" in diff/patch files",new,defect,normal,next-stable-1.4.x,rendering
+6724,"Redirecting mainnav buttons to wiki page breaks ""active"" highlight",new,defect,normal,next-stable-1.4.x,general
+6739,Trac svn-python mismatch with Apache 2.2 under Windows,new,defect,normal,next-stable-1.4.x,web frontend/mod_python
+6744,Wiki page and milestone deletes aren't shown in time line,new,defect,normal,unscheduled,timeline
+6783,Diff Tabular / Unified switcher highlights the wrong way around?,new,enhancement,normal,next-major-releases,version control/changeset view
+6800,A plugin can not extend HTTP headers of the main trac site if it is a private trac.,new,defect,normal,unscheduled,wiki system
+6807,Option to skip revisions with lots of added files,new,enhancement,normal,next-major-releases,version control/changeset view
+6820,change display for duplicate tickets,new,enhancement,normal,unscheduled,ticket system
+6824,paragraph-links should wait for images to load,new,enhancement,normal,unscheduled,wiki system
+6858,Improve intra-line diff highlighting,new,enhancement,normal,next-major-releases,version control/changeset view
+6943,diff renderer has problems processing file names,new,defect,normal,next-stable-1.4.x,rendering
+6958,prevent double activation of the same functionality (component sub-classing),new,enhancement,normal,next-major-releases,general
+6982,x509 with friendly name support,new,enhancement,normal,unscheduled,web frontend
+6986,MySQL schema changes for performance,new,enhancement,normal,next-major-releases,general
+7005,render svn properties as wiki text in new browser column,new,enhancement,normal,unscheduled,version control/browser
+7026,[Patch] Query module column reordering,new,enhancement,normal,next-major-releases,report system
+7043,save custom queries,new,enhancement,normal,next-major-releases,report system
+7044,RSS feed on Sourcechanges,new,enhancement,normal,next-major-releases,version control/browser
+7055,"Add ""toggle line numbers"" JavaScript to source browser",new,enhancement,normal,next-major-releases,rendering
+7069,'SearchResults doesn't indicate closed by etc..,new,enhancement,normal,next-major-releases,search system
+7073,notify dup subscribers,new,enhancement,normal,next-major-releases,notification
+7106,File attachment 'added' time is incorrect,new,defect,normal,next-major-releases,attachment
+7150,"""contrib/workflow/showworkflow"" is KDE centric",new,defect,normal,next-major-releases,general
+7176,Workflow actions indistinguishable from user changes,new,defect,normal,next-major-releases,ticket system
+7178,Translation of Trac to Finnish/suomi [fi_FI],new,task,normal,translations,i18n
+7196,restrict ticket properties to add/edit only/...,new,enhancement,normal,next-major-releases,ticket system
+7199,Colour/style individual cells in ticket report,new,enhancement,normal,unscheduled,report system
+7263,/trunk/contrib/trac-pre-commit-hook not stringent enough in supported_cmds,new,defect,normal,unscheduled,version control
+7276,"wiki page versions start with 1, but Initial Version links to 0",new,defect,normal,next-stable-1.4.x,general
+7290,restrict_owner_force Option to populate user list,new,enhancement,normal,unscheduled,ticket system
+7294,Escaped RSS Link,new,defect,normal,unscheduled,report system
+7300,[PATCH] Support for ticket reassignment in trac-post-commit-hook,new,enhancement,normal,unscheduled,ticket system
+7313,Search help output provided by macros,new,defect,normal,unscheduled,search system
+7371,Use authentication variables populated by Apache,new,enhancement,normal,next-major-releases,web frontend
+7378,Don't mess up formatting when saving trac.ini,new,defect,normal,next-stable-1.4.x,general
+7419,Custom ticket status: customised ordering of statuses,new,enhancement,normal,next-major-releases,ticket system
+7463,theme.html not included when trac is at / URL.,new,defect,normal,next-stable-1.4.x,general
+7484,Icons do not display when using High Contrast mode,new,defect,normal,unscheduled,rendering
+7486,wrong space in diff output,new,defect,normal,next-stable-1.4.x,version control/changeset view
+7573,base_url for many projects is painful,new,enhancement,normal,next-major-releases,general
+7628,[PATCH] (suggested) autocomplete users on ticket forms,new,enhancement,normal,next-dev-1.7.x,general
+7650,authz_policy.py - Support Trac groups,new,enhancement,normal,unscheduled,general
+7680,Broken Error Reporting?,new,defect,normal,next-major-releases,rendering
+7690,Add doctype supporting mathml,new,enhancement,normal,next-major-releases,rendering
+7699,TracQuery documentation on Query Language operators is incorrect,new,defect,normal,next-major-releases,general
+7721,Allow cascaded definition lists,new,enhancement,normal,topic-wikiengine,wiki system
+7728,Realm URL resolve function needed Trac Plugins,new,enhancement,normal,topic-wikiengine,general
+7739,trac & memcached,new,enhancement,normal,unscheduled,general
+7747,timeline rss-feeds should be able to show diffs of wiki changes,new,enhancement,normal,next-major-releases,timeline
+7784,[patch] Configurable accesskeys,new,enhancement,normal,unscheduled,general
+7786,Removing existing ticket priorities makes tickets unrenderable in queries,new,defect,normal,next-stable-1.4.x,admin/web
+7793,[PATCH] Mail notifications for a ticket with multiple owners / reporters,new,enhancement,normal,next-major-releases,notification
+7818,"Removing items from Admin panel (Users, Milestones, etc) is possible without warning",new,enhancement,normal,unscheduled,admin/web
+7850,[patch] Update default_<enum> options in trac.ini when enum value is updated/deleted,new,enhancement,normal,next-major-releases,ticket system
+7855,Support CSS stylesheets in RSS,new,enhancement,normal,unscheduled,general
+7867,"h,l keyboard shortcuts",new,enhancement,normal,next-major-releases,version control/browser
+7872,"[Patch] Styling for ""Powered by"" footer element",new,enhancement,normal,next-major-releases,general
+7884,Ticket should contain a field for the expected time to complete/fix it,new,enhancement,normal,next-major-releases,ticket system
+7895,Issue: Custom Query Shows All Milestones Closed and Active,new,enhancement,normal,unscheduled,general
+7898,[PATCH] Keep NavigationContributor Ordering,new,enhancement,normal,next-major-releases,general
+7911,Optional validation for custom fields,new,enhancement,normal,unscheduled,ticket system
+7918,Translation of Trac to Galician/Galego [gl_ES],new,task,normal,translations,i18n
+7929,make links clickable in annotate view,new,enhancement,normal,next-major-releases,version control/browser
+7975,Viewing changesets is very slow,new,defect,normal,next-stable-1.4.x,version control/changeset view
+7990,Can't view plain text wiki links,new,enhancement,normal,next-major-releases,wiki system
+8006,Non-Writable Python Egg Cache Directory causes mod_fastcgi to send an error 500 with Apache 2,new,defect,normal,next-stable-1.4.x,general
+8008,Translation of Trac to Romanian/Română [ro_RO],new,task,normal,translations,i18n
+8069,[PATCH] Support list of users as options list in ticket custom field,new,enhancement,normal,next-dev-1.7.x,ticket system
+8094,Preview who will be notified,new,defect,normal,next-major-releases,notification
+8130,Report execution failed using Dynamic variables,new,defect,normal,next-stable-1.4.x,report system
+8146,Unified diff in changeset view differs from exported unified diff,new,defect,normal,next-major-releases,version control/changeset view
+8163,Grouping owners,new,enhancement,normal,unscheduled,ticket system
+8165,[PATCH] csv download doesn't process 'description' field,new,defect,normal,next-major-releases,report system
+8219,[PATCH] Forward additional parameters from /report to /query,new,enhancement,normal,next-major-releases,report system
+8294,[PATCH] Add GnuPG encryption to email notifications,new,enhancement,normal,unscheduled,notification
+8328,Repeat SCRIPT_NAME fixup using SCRIPT_URL after environment selection,new,enhancement,normal,next-major-releases,web frontend
+8332,trac-admin permission masks,new,enhancement,normal,unscheduled,admin/console
+8335,Create People page with user profiles and status of who's doing what.,new,enhancement,normal,next-major-releases,general
+8354,Report Query with dates,new,enhancement,normal,unscheduled,report system
+8361,cannot find file trac-digest.py,new,defect,normal,next-major-releases,general
+8371,need to view ticket-list of only tickets with unanswered updates,new,enhancement,normal,next-major-releases,report system
+8380,Search In Report / Search In Query functionality,new,enhancement,normal,next-major-releases,search system
+8387,Need method to view source code of RST files,new,enhancement,normal,next-major-releases,rendering
+8403,Encourage users to select meaningful values for 'required' fields,new,enhancement,normal,next-major-releases,ticket system
+8426,Unable to print any of the admin pages,new,defect,normal,next-major-releases,admin/web
+8436,search results won't show matches from ticket comments,new,defect,normal,next-stable-1.4.x,search system
+8477,Support SVN 1.5 merge tracking in Annotate view,new,enhancement,normal,unscheduled,version control/browser
+8482,Proposal: Plugin update notification,new,enhancement,normal,next-major-releases,web frontend
+8494,tracd doesn't reload file on import error,new,defect,normal,unscheduled,general
+8504,Named Custom Queries,new,enhancement,normal,unscheduled,query system
+8507,Developer WSGI Profiling and Debugging,new,enhancement,normal,next-major-releases,general
+8519,internal SQL string matches are always case insensitive,new,defect,normal,next-major-releases,database backend
+8526,SubWiki link & SubMapTxt page,new,enhancement,normal,next-major-releases,wiki system
+8541,[patch] recursive auto-expansion of folders containing only one sub-directory,new,enhancement,normal,next-major-releases,version control/browser
+8559,New Report: Tickets of Interest,new,enhancement,normal,next-major-releases,report system
+8567,BLOB column can't be used in PRIMARY KEY and maximum ROW size is 8052 on NDB engine,new,defect,normal,unscheduled,database backend
+8599,possibility to send complete tickets per mail (full history and attachments included),new,enhancement,normal,unscheduled,notification
+8605,Allow non-authenticated users to replace their attachments,new,enhancement,normal,next-major-releases,attachment
+8607,Option to skip notification to subscribers when a ticket is updated,new,enhancement,normal,next-major-releases,notification
+8611,More flexible configuration of browser quickjump facility,new,enhancement,normal,unscheduled,version control/browser
+8637,"""Add to CC"" for anonymous with TICKET_APPEND permissions",new,enhancement,normal,next-major-releases,ticket system
+8639,"""View latest revision"" links to non-existent (404) page",new,defect,normal,next-stable-1.4.x,version control/browser
+8640,Enable headline numbering,new,enhancement,normal,next-major-releases,wiki system
+8653,[PATCH] Don't allow anonymous users to modify some fields,new,enhancement,normal,unscheduled,ticket system
+8670,Ticket owner list should not depend on TICKET_MODIFY permission,new,enhancement,normal,next-major-releases,ticket system
+8672,Filter ticket queries by user groups,new,enhancement,normal,next-major-releases,ticket system
+8686,Export wiki documents in HTML format,new,enhancement,normal,topic-wikiengine,wiki system
+8700,patch for trac-svn-post-commit-hook.cmd,new,defect,normal,next-stable-1.4.x,version control
+8702,Different workflows when viewing own tickets/others tickets,new,enhancement,normal,unscheduled,ticket system
+8707,ValueError: invalid literal for int() with base 10: '25.09.2009',new,defect,normal,next-stable-1.4.x,report system
+8708,Operational Error: database is locked,new,defect,normal,next-stable-1.4.x,database backend
+8728,add Closed Date to list of columns offered in custom query,new,enhancement,normal,next-major-releases,query system
+8729,add Latest Comment option to custom query,new,enhancement,normal,next-major-releases,report system
+8735,wiki import should maintain page hierarchy,new,enhancement,normal,next-major-releases,wiki system
+8736,Boundary of background does not encompass intended fields.,new,defect,normal,unscheduled,ticket system
+8851,RSS of Trac projects for Live Bookmark,new,enhancement,normal,unscheduled,web frontend
+8945,[PATCH] Send Notification Email with local timezone,new,enhancement,normal,next-major-releases,notification
+8949,add sortable tables to wiki,new,enhancement,normal,next-major-releases,wiki system
+8952,trac-admin hotcopy should (be able to) copy contents of symbolic links,new,enhancement,normal,next-major-releases,admin/console
+8961,[PATCH] Linkable lines on diff view,new,enhancement,normal,next-major-releases,wiki system
+8967,Partial conversion of files when calling trac.mimeview.api.Mimeview.convert_content,new,defect,normal,next-major-releases,rendering
+9006,"Tickets remain in query list until clicking ""Update""",new,defect,normal,next-stable-1.4.x,report system
+9018,View permission description in popup,new,enhancement,normal,unscheduled,admin/web
+9039,Search within changeset contents(diffs),new,enhancement,normal,unscheduled,search system
+9045,Add support for RTL languages,new,enhancement,normal,translations,i18n
+9082,Error sending email when smtp_default_domain and/or smtp_from contain unicode,new,defect,normal,unscheduled,notification
+9085,Notification system silently drops failures to unicode email addresses,new,enhancement,normal,next-major-releases,notification
+9091,Use RawConfigParser instead of ConfigParser in the Configuration component,new,enhancement,normal,next-major-releases,general
+9123,WikiFormatting in link text does not work,new,enhancement,normal,next-major-releases,wiki system
+9124,Request-URI Too Large,new,defect,normal,next-stable-1.4.x,general
+9137,Improper display of negative time difference,new,defect,normal,next-stable-1.4.x,timeline
+9140,patch renderer should handle added binary files in GIT binary diffs,new,defect,normal,next-stable-1.4.x,rendering
+9141,'Retarget associated tickets' does not respect [milestone-groups] config,new,defect,normal,next-major-releases,roadmap
+9149,Conf option for showing previous query instead of default query,new,enhancement,normal,next-major-releases,ticket system
+9164,Second categorie for grouping tickets,new,enhancement,normal,unscheduled,report system
+9168,milestone URL persistence,new,enhancement,normal,next-major-releases,roadmap
+9172,Trac diff highlighting start and end points,new,enhancement,normal,next-major-releases,version control/changeset view
+9205,Make the timeline threaded,new,enhancement,normal,next-major-releases,timeline
+9208,Support for SVN repository on a UNC path on Windows,new,defect,normal,unscheduled,version control
+9214,expandable blockquotes,new,enhancement,normal,next-major-releases,wiki system
+9222,"""full delete"" of wiki page could be a non-fatal operation",new,enhancement,normal,next-dev-1.7.x,wiki system
+9248,Trac as reST editor,new,enhancement,normal,next-major-releases,wiki system
+9251,Unable to escape number list,new,defect,normal,topic-wikiengine,wiki system
+9255,Links from reports do not support dynamic variables,new,defect,normal,unscheduled,report system
+9281,Allow IAttachmentManipulator to easily check on the uploaded attachment's file data,new,enhancement,normal,next-major-releases,attachment
+9289,Permissions for custom ticket fields,new,enhancement,normal,unscheduled,ticket system
+9298,"IntegrityError: duplicate key value violates unique constraint ""session_attribute_pk""",new,defect,normal,next-stable-1.4.x,general
+9310,Allow cookies be set for textarea heights upon resize and restore upon document load,new,enhancement,normal,next-major-releases,general
+9331,trac-admin should upgrade static files in environment,new,enhancement,normal,next-dev-1.7.x,admin/console
+9343,"Because Trac support for multiple repos, each repo with a related encoding.",new,enhancement,normal,next-major-releases,version control
+9355,"authzpolicy FineGrainedPermissions: configuration file order matters, but more/less specific patterns don't",new,defect,normal,unscheduled,web frontend
+9379,Links to timeline are used even if the user does not have permission to view timeline,new,defect,normal,unscheduled,timeline
+9383,Integrate LXR into source code view,new,enhancement,normal,unscheduled,rendering
+9385,line-referencing wiki links,new,enhancement,normal,unscheduled,wiki system
+9399,Specify tablespace when connecting to postgresql,new,defect,normal,unscheduled,general
+9443,"Dropdown list on ""View tickets""",new,enhancement,normal,next-major-releases,report system
+9448,Copy link to wiki page or attachment in TracLinks format,new,enhancement,normal,unscheduled,general
+9463,Unable to edit components with slash or backslash,new,defect,normal,unscheduled,admin/web
+9472,Workflow actions not translated,new,enhancement,normal,next-major-releases,i18n
+9478,Concurrent ticket modifications is still possible,new,defect,normal,next-major-releases,ticket system
+9495,CommitTicketUpdater - git and replayed commits,new,enhancement,normal,unscheduled,ticket system
+9505,Missing feature from ticket query module: color tickets based on contents of field,new,enhancement,normal,unscheduled,ticket system
+9510,Action block stays visible when no actions available,new,defect,normal,next-major-releases,ticket system
+9526,Fine Grained Permission possible realms and paths format are not documented.,new,defect,normal,next-major-releases,wiki system
+9528,Failed to highlight active mainnav item if `RepositoryManager` is enabled,new,defect,normal,next-stable-1.4.x,web frontend
+9537,to implement cherry-picking for wiki pages,new,enhancement,normal,next-major-releases,wiki system
+9539,Attachments do not change Last Modified Time,new,defect,normal,next-major-releases,attachment
+9550,Ticket should be divisible,new,enhancement,normal,next-major-releases,ticket system
+9554,plain text download of wiki pages reveals comments not meant for public consumption,new,enhancement,normal,next-major-releases,wiki system
+9579,sudo-like behavior for users,new,enhancement,normal,unscheduled,general
+9584,Binary files fail to download over SSL using Internet Explorer (IE),new,defect,normal,unscheduled,general
+9618,WIKI_VIEW_SOURCE privilege,new,enhancement,normal,unscheduled,wiki system
+9638,Submit forms with CTRL+Enter in textareas,new,enhancement,normal,next-major-releases,web frontend
+9642,Resizable textarea for the attachment description,new,enhancement,normal,next-major-releases,attachment
+9646,[PATCH] Highlight selected line when #L123 is used in source browser,new,enhancement,normal,next-major-releases,version control/browser
+9653,tracd --base-path matches any string of the same length,new,defect,normal,next-major-releases,web frontend/tracd
+9655,Source code navigation in browser,new,enhancement,normal,next-major-releases,version control/browser
+9673,Some TracIni settings should be user configurable,new,enhancement,normal,next-major-releases,general
+9674,[PATCH] trac.ini parameterization support,new,enhancement,normal,next-major-releases,general
+9677,Expanding an alias repository sets the hash to the aliased repository,new,defect,normal,next-stable-1.4.x,version control/browser
+9683,Make htdocs_location more useful,new,enhancement,normal,next-major-releases,web frontend
+9688,Preformatted text in definition list rendered wrongly,new,defect,normal,topic-wikiengine,wiki system
+9702,Add trac.ini web editor,new,enhancement,normal,unscheduled,admin/web
+9704,Support for subrepositories mercurial extension,new,enhancement,normal,plugin - mercurial,plugin/mercurial
+9706,New ticket_change class: commit,new,enhancement,normal,unscheduled,ticket system
+9707,search ticket does not work when query for both subject keyword and comment keyword,new,defect,normal,next-major-releases,search system
+9730,Allow adding comments to source in browser,new,enhancement,normal,unscheduled,version control/browser
+9734,Redirecting to non-HTTP URLs not possible,new,defect,normal,next-major-releases,general
+9735,TicketQuery adds reporter by default,new,defect,normal,next-major-releases,ticket system
+9736,Add an AND operator to ticket query syntax,new,enhancement,normal,unscheduled,query system
+9738,"Add ""attach file"" button at the end of the ticket",new,enhancement,normal,next-major-releases,ticket system
+9740,Impossible to CC a username with spaces,new,defect,normal,1.6.1,ticket system
+9755,milestone name containing spaces breaks milestone editing within roadmap view and admin module,new,defect,normal,unscheduled,general
+9756,TicketQuery should count groups if grouping is used,new,enhancement,normal,unscheduled,general
+9771,Undocumented/unintended?  Max preview size limited by wiki max page size,new,defect,normal,next-stable-1.4.x,attachment
+9775,implement get_path_history in the versioncontrol cache,new,defect,normal,next-major-releases,version control/log view
+9807,Wrong sections are collapsed by default!,new,enhancement,normal,next-major-releases,ticket system
+9843,Non existing Wiki pages should return 404.,new,defect,normal,next-major-releases,general
+9852,Mercurial plugin support for pulling repository description from hgrc,new,enhancement,normal,plugin - mercurial,plugin/mercurial
+9854,Jump to first change in wiki preview,new,enhancement,normal,unscheduled,general
+9868,Impossible to see the changelog of a branch using Mercurial,new,defect,normal,next-major-releases,version control/log view
+9871,error occurs when upload an attachment with size of about 800M in a ticket,new,defect,normal,next-stable-1.4.x,general
+9874,using a custom query to harvest email addresses,new,defect,normal,unscheduled,general
+9930,Allow configuration of ticket query cache time,new,enhancement,normal,unscheduled,ticket system
+9938,Improve on static resources,new,enhancement,normal,next-major-releases,web frontend
+9947,Unexpected resolver result for TracLinks in wiki page within hierarchy,new,defect,normal,next-major-releases,wiki system
+9960,Sometimes exception after killing tracd,new,defect,normal,unscheduled,general
+9967,Allow setting option values through Option objects,new,enhancement,normal,next-major-releases,general
+9971,"cannot unsubscribe from bug, no way, no how",new,defect,normal,next-stable-1.4.x,notification
+9978,Guard against pkg_resources.resource_filename errors,new,defect,normal,next-major-releases,general
+9979,[PATCH] Single changeset resync fails if changesets are missing,new,defect,normal,next-major-releases,version control
+10023,Trac notification + Exchange 2010,new,enhancement,normal,unscheduled,notification
+10027,TicketQuery groups without translation,new,defect,normal,next-major-releases,ticket system
+10032,Wiki page mouse hover tooltip,new,enhancement,normal,next-major-releases,wiki system
+10040,Support for integer/float custom fields,new,enhancement,normal,next-dev-1.7.x,ticket system
+10047,Add RSS support for Roadmap,new,enhancement,normal,next-major-releases,roadmap
+10058,Highlight locked files in repository browser,new,enhancement,normal,unscheduled,version control/browser
+10059,prop.rendered not properly set in browser.html,new,defect,normal,next-major-releases,version control/browser
+10079,improper rendering of svn:externals when not configured,new,defect,normal,undecided,version control/browser
+10091,Exception when formatting Mercurial changeset link,new,defect,normal,next-major-releases,plugin/mercurial
+10101,Broken permissions for changeset view,new,defect,normal,next-major-releases,version control/changeset view
+10125,CommitTicketUpdater should call manipulators and listeners,new,enhancement,normal,next-major-releases,ticket system
+10201,[Patch] WikiProcessors lacks detailed help,new,enhancement,normal,next-major-releases,wiki system
+10239,Enhancement: set default_owner from WebAdmin `Components`,new,enhancement,normal,next-dev-1.7.x,admin/web
+10305,Incomplete URL sent to Akismet API,new,defect,normal,next-major-releases,web frontend
+10433,bootstrap script for Trac development,new,enhancement,normal,next-stable-1.4.x,general
+10465,Counting of Ticket-Comments defect,new,defect,normal,next-stable-1.4.x,ticket system
+10672,Automatically minify Javascript and CSS,new,enhancement,normal,next-dev-1.7.x,general
+10730,Provide Git hooks to call trac-admin,new,enhancement,normal,next-stable-1.4.x,plugin/git
+10733,Renamed files and prev/next links don't work well,new,defect,normal,next-major-releases,version control
+10741,"more readable ""closed"" style",new,defect,normal,next-major-releases,general
+10755,CommitTicketUpdater does not allow user to define what state to jump to,new,enhancement,normal,next-major-releases,ticket system
+10763,fix changeset search results,new,defect,normal,next-stable-1.4.x,version control
+10764,refactor changeset search,new,defect,normal,next-major-releases,version control
+10884,trac-admin repository resync fails with TypeError : int argument required,new,defect,normal,next-stable-1.4.x,version control
+11046,Reloading a page in the source browser redirects to another file,new,defect,normal,next-stable-1.4.x,version control/browser
+11130,Add an inlinelinkbutton class,new,enhancement,normal,next-major-releases,general
+11331,Optimize timeline for testing department,new,enhancement,normal,unscheduled,timeline
+11367,"Ticket change history not updated when deleting or renaming Components, Versions and Ticket System Enums",new,defect,normal,next-dev-1.7.x,ticket system
+11398,Existing attachments can be overwritten without warning when uploading through trac-admin,new,enhancement,normal,next-major-releases,admin/console
+11424,Remove `req` from ITicketActionController method signatures,new,enhancement,normal,unscheduled,ticket system
+11432,The href of customized navigation items doesn't work as documented,new,defect,normal,next-dev-1.7.x,general
+11463,Strip markup from log messages,new,enhancement,normal,next-stable-1.4.x,general
+11527,Some unexpected behaviors on the history page,new,defect,normal,next-stable-1.4.x,general
+11530,Ticket default_description cannot include new lines,new,enhancement,normal,next-stable-1.4.x,ticket system
+11539,Remove deprecated methods in trac.wiki.formatter,new,enhancement,normal,next-major-releases,general
+11547,Inconsistent results from get_resource_summary,new,defect,normal,next-stable-1.4.x,general
+11567,TracIni wiki page is incomplete,new,enhancement,normal,next-stable-1.4.x,general
+11619,Option to show whitespace and tab characters in file and diff view,new,enhancement,normal,next-major-releases,version control/browser
+11627,Backport Bloodhound search API,new,enhancement,normal,next-major-releases,search system
+11631,Exceptions in get_repository method of IRepositoryConnector should not disable repository browser,new,enhancement,normal,next-stable-1.4.x,version control/browser
+11633,Allow CommitTicketReferenceMacro to be used in tickets that aren't referenced in the changeset message,new,enhancement,normal,next-major-releases,ticket system
+11651,Attachment example on TracFineGrainedPermissions page is incorrect,new,defect,normal,next-stable-1.4.x,attachment
+11683,Dynamic table sorting in Admin tables,new,enhancement,normal,next-major-releases,admin/web
+11702,Add a macro for listing ticket Components,new,enhancement,normal,next-major-releases,ticket system
+11746,Generate list of valid default_handlers in ExtensionOption documentation,new,enhancement,normal,next-major-releases,general
+11806,Tracd --daemonize does not work without --pidfile with systemd,new,defect,normal,next-stable-1.4.x,web frontend/tracd
+11840,Add ISessionAttributeProvider interface,new,enhancement,normal,next-major-releases,general
+11856,Default values of ticket workflow fields should be configured in the [ticket-workflow] section,new,enhancement,normal,next-dev-1.7.x,ticket system
+11870,"Optional notification subscribers for watching components, users, groups, individual resources, ...",new,enhancement,normal,next-dev-1.7.x,notification
+11884,Notification distributor for XMPP,new,enhancement,normal,next-major-releases,notification
+108,OrphanedPages macro,new,enhancement,low,next-major-releases,wiki system
+109,"MissingLinks, an index over missing wiki pages",new,enhancement,low,next-major-releases,wiki system
+217,XML-RPC/SOAP/etc. interface,new,enhancement,low,unscheduled,general
+533,Support for custom reports,new,enhancement,low,next-major-releases,report system
+548,[Patch] Support for subcomponents,new,enhancement,low,next-major-releases,ticket system
+615,Change default wiki syntax,new,enhancement,low,unscheduled,wiki system
+642,RSS feed with all events for the tickets in a report,new,enhancement,low,unscheduled,ticket system
+653,Form controls are over-styled,new,defect,low,unscheduled,general
+787,Change attachment description,new,enhancement,low,next-major-releases,attachment
+991,Timeline Ticket messages should strike out the ID if closed,new,defect,low,unscheduled,timeline
+1200,Provide syntax to link to file-differences from svn log messages,new,enhancement,low,next-major-releases,version control/changeset view
+1216,wiki pages caching,new,enhancement,low,next-major-releases,wiki system
+1376,Alternate Template for wiki pages,new,enhancement,low,next-major-releases,wiki system
+1395,Text box for duplicate when a bug is a duplicate,new,enhancement,low,next-major-releases,ticket system
+1410,Post commit script for Tags changes,new,enhancement,low,next-major-releases,general
+1502,Ticket searches don't interpret [[BR]],new,enhancement,low,next-major-releases,search system
+1748,"Per-screen and per-field help text, configurable per trac environment",new,enhancement,low,next-major-releases,general
+1901,Add contains option to milestone filter in custom query,new,enhancement,low,unscheduled,query system
+1996,Add a report formatting option to format timestamps,new,enhancement,low,unscheduled,report system
+2095,Have redundant 'action triggers' / controls on long pages,new,enhancement,low,next-major-releases,roadmap
+2194,Make user credentials available to IPermissionStore & IPermissionGroupProvider component,new,enhancement,low,next-major-releases,general
+2264,"Tickets with created with """" Milestone show up under ""Release""",new,defect,low,next-major-releases,report system
+2293,Make rss-feeds of more parts of trac available,new,enhancement,low,next-major-releases,wiki system
+2344,sub milestone,new,enhancement,low,next-major-releases,roadmap
+2467,Link user name in reports to custom query showing that user's open tickets,new,enhancement,low,next-major-releases,ticket system
+2497,Change custom query with group to also have a table of contents for group,new,enhancement,low,next-major-releases,ticket system
+2523,TODO's from Sourcecode as a ticket,new,enhancement,low,next-major-releases,wiki system
+2616,Show ticket submission time in Change History,new,enhancement,low,next-major-releases,ticket system
+2619,Message-IDs generation should be a little more randomized,new,defect,low,unscheduled,notification
+2717,Create window title on wiki pages from = The title =,new,enhancement,low,topic-wikiengine,wiki system
+2956,Upload files to the repository,new,enhancement,low,next-major-releases,version control/browser
+3062,[PATCH] tracd should log to syslog when daemonized,new,enhancement,low,unscheduled,web frontend/tracd
+3153,Include tickets without milestone in iCal,new,enhancement,low,next-major-releases,ticket system
+3249,Default env with parent_dir,new,enhancement,low,next-major-releases,general
+3255,Context-sensitive new ticket prefill,new,enhancement,low,next-major-releases,ticket system
+3335,Improve the rendering of the wiki syntax for citations,new,enhancement,low,next-major-releases,wiki system
+3416,IFrame,new,defect,low,next-major-releases,wiki system
+3734,Provide Possibility to 'freeze' a Milestone,new,enhancement,low,next-major-releases,ticket system
+4033,exceptions.RuntimeError: Application didn't call startResponse before writing data!,new,defect,low,next-stable-1.4.x,web frontend
+4279,add a plugin to comment on a page,new,enhancement,low,next-major-releases,wiki system
+4329,diff does not treat TAB as whitespace,new,defect,low,unscheduled,version control/browser
+4374,Custom Tickets Select Box Auto-generation,new,enhancement,low,next-major-releases,ticket system
+4439,PageOutline macro produces empty <li> elements,new,defect,low,topic-wikiengine,wiki system
+4452,Graphical bar/pie charts for statistics viewing,new,enhancement,low,unscheduled,general
+4695,Icons for InterTrac and InterWiki links,new,enhancement,low,next-major-releases,wiki system
+4827,TracPermissions to access WebAdmin should be more fine-grained,new,enhancement,low,next-major-releases,admin/web
+4980,"configurable default value for ""Group results by"" in Milestone view",new,enhancement,low,next-major-releases,roadmap
+5010,shutdown hook for plugins,new,enhancement,low,next-major-releases,general
+5119,"zip source download link should support ""current version""",new,enhancement,low,next-major-releases,version control/browser
+5170,max_diff_bytes should be honored even if only one file has changed,new,enhancement,low,next-major-releases,version control/changeset view
+5227,provide option to insert summary in a ticket link,new,enhancement,low,next-major-releases,wiki system
+5382,improve storage of binary content in the database,new,enhancement,low,next-major-releases,database backend
+5420,EOL changes hidden in changeset view,new,defect,low,next-major-releases,version control/changeset view
+5498,Use #. as a wiki markup for ordered list,new,enhancement,low,next-major-releases,wiki system
+5663,Suggestions for Ticket Reports,new,enhancement,low,next-major-releases,ticket system
+5755,Multiple Milestone Dates,new,enhancement,low,next-major-releases,roadmap
+5820,[PATCH] standalone trac does not support IPv6,new,defect,low,next-stable-1.4.x,web frontend/tracd
+5821,Wiki blame support,new,enhancement,low,next-major-releases,wiki system
+5866,"[patch] Workflow tweak: handle ""not-state"" transition specifications",new,enhancement,low,unscheduled,ticket system
+5933,"Add search options for ""match case"" and ""match whole word""",new,defect,low,next-major-releases,search system
+6009,colons in revision identifiers,new,enhancement,low,next-major-releases,version control
+6078,[PATCH] Enabling multiple email notification for a single user.,new,enhancement,low,unscheduled,notification
+6107,"to ""watch"" a milestone",new,enhancement,low,next-major-releases,notification
+6118,[patch] Add extension point for Session modification,new,enhancement,low,next-major-releases,general
+6128,[Patch] Pagination for the Timeline,new,enhancement,low,next-major-releases,timeline
+6145,Query correlation with SVN commits,new,enhancement,low,next-major-releases,general
+6232,Setting different completion ratios on different ticket states in [milestone-groups],new,enhancement,low,next-major-releases,roadmap
+6424,Next/previous diff support,new,enhancement,low,next-major-releases,version control/changeset view
+6473,Negative revisions for changeset,new,enhancement,low,unscheduled,version control/changeset view
+6556,RSS feed is not valid,new,defect,low,unscheduled,report system
+6623,"emitting invalid xml:space=""preserve"" attributes on wiki and ticket pages (causes failed W3C validation)",new,defect,low,next-major-releases,wiki system
+6709,Extended 'view diff' feature does not update the browsing position,new,enhancement,low,next-major-releases,version control/changeset view
+6863,Included wiki page makes web research irrelevant,new,enhancement,low,next-major-releases,wiki system
+6904,Annotate Does not show full user name.,new,defect,low,next-major-releases,version control
+7059,Use webcal:// for Outlook 2007 iCalendar compatability,new,enhancement,low,unscheduled,roadmap
+7215,Default to base_path if SCRIPT_NAME not set for tracd,new,enhancement,low,next-major-releases,web frontend/tracd
+7529,More extension points for reports,new,enhancement,low,unscheduled,report system
+7558,"New TracQuery match operator for ""contains the word"" would be useful",new,enhancement,low,next-major-releases,ticket system
+7617,Various ticket fields don't like leading or trailing /,new,defect,low,next-stable-1.4.x,ticket system
+7724,Allow user provided mime-type for attachments,new,enhancement,low,next-major-releases,attachment
+8005,syntax coloring in existing tickets stopped working,new,defect,low,unscheduled,rendering
+8088,"Allow a WikiFormatted Custom Ticket Field Parse Through the Wiki Engine in Reports, without Using 'Magic' Column Name",new,enhancement,low,next-major-releases,report system
+8223,Mozilla/Firefox displaying images through html processor,new,defect,low,next-major-releases,wiki system
+8480,[patch] Add relative date info to timeline,new,enhancement,low,unscheduled,timeline
+8677,Ability to follow/unfollow a ticket,new,enhancement,low,next-major-releases,ticket system
+8681,[PATCH] Allow adding usernames to a ticket CC list,new,enhancement,low,next-major-releases,ticket system
+8727,cannot create TracLinks to attachments with number sign in file name,new,defect,low,next-major-releases,wiki system
+8829,[Patch] Make Trac work on all platforms with environment paths containing non-ASCII characters,new,defect,low,next-stable-1.4.x,admin/console
+8933,unfavourable German translations,new,defect,low,translations,i18n
+8989,Milestones should have a 'Back to Roadmap' link in the contextual navigation,new,enhancement,low,next-dev-1.7.x,roadmap
+9046,Cannot create a TracLink to heading in ticket description,new,defect,low,next-major-releases,wiki system
+9048,Wiki history empty if end revision precedes start revision,new,defect,low,next-major-releases,wiki system
+9073,Allow milestones on roadmap to be folded,new,enhancement,low,next-major-releases,roadmap
+9125,Report rendering needs some general overhaul,new,enhancement,low,next-major-releases,report system
+9129,"TypeError: expecting datetime, int, long, float, or None; got <class 'genshi.template.eval.Undefined'>",new,defect,low,next-major-releases,version control
+9263,"if SVN is used, milestone should manage/allowtoassign links for branch and tag",new,enhancement,low,next-major-releases,roadmap
+9265,Display HEAD when browsing latest revision,new,enhancement,low,unscheduled,version control/browser
+9457,Unsubmitted comments lost after attaching files,new,enhancement,low,unscheduled,ticket system
+9601,Disallow robot navigation for edit pages,new,defect,low,next-major-releases,wiki system
+9617,Private user-specific saved ticket queries,new,enhancement,low,next-major-releases,report system
+9621,Display problem with side by side diff and ignore blank lines,new,defect,low,next-major-releases,version control/changeset view
+9650,"""Cache-Control: must-revalidate"" means shared cache",new,defect,low,unscheduled,web frontend
+9946,CommitTicketUpdater does not honor wiki_format_messages setting,new,defect,low,next-major-releases,version control/changeset view
+10021,Rendering of URI samples,new,defect,low,unscheduled,wiki system
+10049,Trac-admin should permit issue or task creation,new,enhancement,low,next-major-releases,admin/console
+10075,non-terminated Wiki Markups also markup the rest of the page.,new,defect,low,topic-wikiengine,general
+10480,forward slash in repository name causes errors,new,defect,low,next-stable-1.4.x,version control/browser
+10945,"horizontal scrollbar in ""editing wiki"" textareas",new,enhancement,low,next-major-releases,wiki system
+10966,"IntegrityError: columns sid, authenticated, name are not unique",new,defect,low,next-stable-1.4.x,general
+11493,Add config option to show changeset files in ticket's comment,new,enhancement,low,next-major-releases,ticket system
+329,Adding support for Microsoft SQL Server as a backend DB,new,enhancement,lowest,unscheduled,database backend
+781,svn:log editing,new,enhancement,lowest,next-major-releases,version control/changeset view
+976,Wiki Page redirects to other Wiki pages and possibly other Trac resources,new,enhancement,lowest,next-major-releases,wiki system
+1069,"query by example (e.g. when creating a new ticket, check for similar tickets)",new,enhancement,lowest,next-major-releases,ticket system
+1245,Highlight changes of a wiki page since last visit,new,enhancement,lowest,next-major-releases,wiki system
+1278,attaching file to wiki page does not register as changed page,new,defect,lowest,next-major-releases,attachment
+1424,MediaWiki-style table syntax support,new,enhancement,lowest,next-major-releases,wiki system
+1445,[ER] Revision Graph for the Version Control Browser,new,enhancement,lowest,next-major-releases,version control/log view
+1465,Trac could use a distributed VCS storage,new,enhancement,lowest,next-major-releases,wiki system
+1514,Mantis conversion script,new,enhancement,lowest,next-major-releases,ticket system
+1549,Save/restore/add reports via trac-admin,new,enhancement,lowest,unscheduled,report system
+1678,Show component view in timeline view for checkins,new,enhancement,lowest,next-major-releases,timeline
+2644,Link to ticket query page from search page,new,enhancement,lowest,unscheduled,search system
+3006,Want to be able to merge tickets,new,enhancement,lowest,next-major-releases,ticket system
+3257,Indicate recently updated items,new,enhancement,lowest,unscheduled,general
+4636,Component field sort order doesn't use locale,new,defect,lowest,next-major-releases,ticket system
+4760,"""Newer revisions"" link",new,enhancement,lowest,next-major-releases,version control/log view
+4798,permission groups in Grant Action Field,new,enhancement,lowest,unscheduled,admin/web
+5912,Offline mode using HTML5 Web Storage,new,enhancement,lowest,next-major-releases,general
+6014,"Pre/Post processing of the attachments (compression,virus-check,etc)",new,enhancement,lowest,unscheduled,attachment
+6101,browsing folder with too many files should use paging,new,defect,lowest,next-major-releases,version control/browser
+6947,Change in colouring scheme for nested replies in the ticket,new,enhancement,lowest,next-major-releases,wiki system
+7022,Reports Organizer,new,enhancement,lowest,next-major-releases,report system
+7071,keyboard nav implementation,new,enhancement,lowest,next-major-releases,version control/browser
+7361,"Error in Wiki Rendering if Colon "":"" is used with a word and quote mark",new,defect,lowest,next-major-releases,wiki system
+7651,Allow wildcards in permission add/remove,new,enhancement,lowest,unscheduled,admin/web
+8058,Smarter db connection pool,new,enhancement,lowest,next-major-releases,general
+8383,Render baetle as RDFa on ticket pages,new,enhancement,lowest,next-major-releases,web frontend
+9055,Auto numbering in wiki tables,new,enhancement,lowest,next-major-releases,wiki system
+9127,Drag and drop attachments,new,enhancement,lowest,next-major-releases,attachment
+9131,Customisation of default field labels,new,enhancement,lowest,next-major-releases,general
+9157,backtrace in attachment description,new,defect,lowest,next-major-releases,attachment
+9216,changeset hook for wiki pages,new,enhancement,lowest,next-major-releases,wiki system
+9296,Wiki autocompletion for TracLinks,new,enhancement,lowest,next-major-releases,wiki system
+9602,[PATCH] auto-reload fail by design,new,defect,lowest,unscheduled,general
+9689,Links on  SVG images do not work,new,defect,lowest,next-major-releases,rendering
+9897,'>' cannot be properly escaped,new,defect,lowest,next-major-releases,wiki system
+886,Add support for Master tickets,new,enhancement,highest,next-major-releases,ticket system
+1,Add a new project summary module.,new,enhancement,high,topic-multiproject,general
+31,Bug dependencies/relations feature,new,enhancement,high,next-major-releases,ticket system
+38,Wiki edit event collapsing,new,enhancement,high,unscheduled,timeline
+4588,User Page: trac links to these pages,new,enhancement,high,next-major-releases,general
+6217,New notification/cc scheme - notification preferences per ticket,new,enhancement,high,unscheduled,notification
+7687,"Add support for svn:externals ""1.5"" style",new,defect,high,next-stable-1.4.x,version control/browser
+10267,Version controls diffs of large text files kill the system,new,defect,high,next-dev-1.7.x,version control/changeset view
+10665,Search through all text fields,new,defect,high,next-major-releases,search system
+10699,trac-admin - ticket export import,new,defect,high,next-major-releases,admin/console
+11719,"Auto-preview breaks TicketExt plugin, possibily others",new,defect,high,next-major-releases,ticket system
+13129,trac-admin resync leaks memory,new,defect,high,next-stable-1.4.x,version control
+1660,Patch to get email notification (with diff) of wiki changes,new,enhancement,normal,1.7.1,notification
+2130,Sort Milestones in Roadmap and NewTicket alphabetically (as an option),new,enhancement,normal,next-major-releases,roadmap
+2299,Ability to override SCRIPT_NAME from base_url,new,defect,normal,unscheduled,general
+5487,Translation of Trac to Swedish/Svenska [sv],new,task,normal,translations,i18n
+6953,trac has locale problem,new,defect,normal,not applicable,general
+7342,Add filter parameters to milestone view,new,enhancement,normal,unscheduled,roadmap
+7353,Translation of Trac to Catalan/Català [ca],new,task,normal,translations,i18n
+7417,Translation of Trac to English [en_GB],new,task,normal,translations,i18n
+7454,Query timeouts with PG result in traceback,new,defect,normal,next-stable-1.4.x,search system
+7578,Translation of Trac to Estonian/eesti [et_EE],new,task,normal,translations,i18n
+7608,Private ticket permission users can get ticket counts that include tickets they're not allowed to view,new,defect,normal,next-major-releases,report system
+7660,Be able to search for commenters by name,new,enhancement,normal,next-major-releases,ticket system
+7820,[PATCH] Syslog Logging Not Working on FreeBSD,new,defect,normal,next-dev-1.7.x,general
+9259,Translations to Esperanto [eo],new,enhancement,normal,translations,i18n
+9624,Project-specific ticket prefixes and numbering,new,enhancement,normal,topic-multiproject,ticket system
+10112,notifications strip slashes from email addresses,new,defect,normal,next-stable-1.4.x,notification
+10118,(almost patch) make browser quickjump dropdown context sensitive,new,enhancement,normal,unscheduled,version control/browser
+10136,Way to configure by default displayed branch,new,enhancement,normal,plugin - mercurial,plugin/mercurial
+10150,Plugin installation errors should be shown on admin page,new,enhancement,normal,next-major-releases,admin/web
+10152,"Custom Query - ""and"" becomes ""or""",new,defect,normal,next-major-releases,query system
+10159,Allow admin to prevent display of traceback on error page,new,defect,normal,unscheduled,general
+10162,Add a REPOS kind of Node,new,defect,normal,next-major-releases,version control
+10167,"Column ""Date"" in Change History of a Wiki Page",new,enhancement,normal,next-major-releases,wiki system
+10168,trac generates error 500 in case no prermission to conf/trac.ini,new,defect,normal,next-major-releases,general
+10182,Unit tests do not run in their own sandbox,new,enhancement,normal,next-major-releases,general
+10183,How to browser sources which folders have been changed and/or removed?,new,defect,normal,next-major-releases,version control/browser
+10185,"Roadmap view doesn't cache ""Show completed milestones""",new,defect,normal,next-major-releases,roadmap
+10202,TracQuery fails to handle checkbox custom fields,new,defect,normal,next-major-releases,query system
+10203,[PATCH] AuthzPolicy to allow multiple user/group permissions,new,enhancement,normal,undecided,general
+10217,Portal Trac,new,enhancement,normal,unscheduled,general
+10232,Validating Ticket accounts for new or removed fields?,new,defect,normal,next-stable-1.4.x,ticket system
+10250,tracQuery does not support count,new,enhancement,normal,unscheduled,general
+10268,"Search needs option for required words, logical operations, ignore words, etc",new,enhancement,normal,unscheduled,search system
+10279,Sort admin page milestone table by descending due date,new,defect,normal,next-major-releases,admin/web
+10286,Way to query all tickets with attachments,new,enhancement,normal,next-major-releases,query system
+10311,improve ticket change hints in custom query,new,defect,normal,next-major-releases,query system
+10312,Multiple sub tables are not correctly processed by the WikiProcessor,new,enhancement,normal,topic-wikiengine,wiki system
+10317,"log?rev=N&stop_rev=N-1&limit=2 only shows a single revision, but should show two revisions",new,defect,normal,next-major-releases,version control/log view
+10323,Enable sorting in TitleIndex macro,new,enhancement,normal,next-major-releases,wiki system
+10325,Way to delete ticket comments versions,new,enhancement,normal,next-major-releases,ticket system
+10334,Privilege for viewing Wiki page history,new,enhancement,normal,unscheduled,wiki system
+10339,"Created, Modified and Ticket columns are not translated in SQL reports",new,defect,normal,next-stable-1.4.x,general
+10350,e.g. [#1234] in svn commit 5678 comment generates wrong Trac link,new,enhancement,normal,next-major-releases,wiki system
+10372,Search in wiki should prioritize title matches and whole word matches above partial word matches,new,enhancement,normal,next-major-releases,search system
+10376,Opening a link in a new window?,new,enhancement,normal,next-major-releases,wiki system
+10381,"Use full width for custom textarea fields, and make them collapsible",new,enhancement,normal,next-major-releases,ticket system
+10383,When looking at a list of tickets I should be able to move the mouse pointer over the summary (mouse-over) and see the ticket's description,new,enhancement,normal,unscheduled,general
+10396,"[PATCH] New extension point interface to reformat the ""replying to"" block in a comment",new,enhancement,normal,next-major-releases,ticket system
+10409,Link to list of supported macros/processors on error,new,enhancement,normal,next-major-releases,rendering
+10411,Enhancing TracMercurial plugin to use new server-command protocol,new,enhancement,normal,plugin - mercurial,plugin/mercurial
+10413,[PATCH] Descriptive component names in trac.log,new,enhancement,normal,next-major-releases,general
+10421,RuntimeError: instance.__dict__ not accessible in restricted mode,new,defect,normal,not applicable,general
+10423,Destroy trac.ini at race condition.,new,defect,normal,next-major-releases,admin/web
+10425,[PATCH] Add support for configuring a default set of columns to show in a query.,new,enhancement,normal,next-major-releases,query system
+10426,Refactor pre-commit-hook to handle post-commit-hook features,new,task,normal,unscheduled,version control
+10447,install blockdiag family on t.e.o.,new,enhancement,normal,not applicable,project
+10450,Do not linewrap long URLs in text emails,new,defect,normal,undecided,notification
+10455,A repository hides a directory which has the same name in default repository,new,defect,normal,next-major-releases,version control/browser
+10464,Option to specify status list which will be retargeted when closing milestone,new,enhancement,normal,unscheduled,roadmap
+10492,bash tab completion extension for trac-admin,new,enhancement,normal,next-major-releases,admin/console
+10517,several tracd.exe on the same port on windows,new,defect,normal,unscheduled,web frontend/tracd
+10523,TitleIndex: add option 'show_title' to display first level heading,new,enhancement,normal,topic-wikiengine,wiki system
+10525,TicketQuery macro broken for some keywords-based queries,new,defect,normal,next-major-releases,query system
+10531,Annotate in changeset diff view,new,enhancement,normal,unscheduled,version control/changeset view
+10532,Show word diff when summary changes (instead of <old value> to <new value>),new,enhancement,normal,next-dev-1.7.x,ticket system
+10539,intertrac links not working properly with diff,new,defect,normal,next-stable-1.4.x,wiki system
+10543,Make mainnav entries customizable through user preference page,new,enhancement,normal,undecided,general
+10544,Support better readable date/time format instead of/in addition to strict ISO 8601,new,enhancement,normal,unscheduled,general
+10554,Cleanup when wsgi.run_once is set in trac.web.main.py,new,defect,normal,undecided,web frontend
+10556,"Show completed, uncompleted, or all Milestones in a query",new,enhancement,normal,undecided,query system
+10579,"Do not use ""anonymous"" updater's email in ticket notification From",new,enhancement,normal,next-major-releases,notification
+10599,"GitPlugin: Show branches in timeline, changesets, browser",new,enhancement,normal,next-major-releases,plugin/git
+10606,GitPlugin: Improve performance,new,enhancement,normal,next-dev-1.7.x,plugin/git
+10633,TicketQuery 'clist' format,new,enhancement,normal,next-major-releases,wiki system
+10640,Mercurial user aliases,new,enhancement,normal,undecided,plugin/mercurial
+10670,Image macro references inconsistent with attachment links,new,enhancement,normal,next-major-releases,wiki system
+10681,commit_updater.py create wrong comment number,new,defect,normal,undecided,ticket system
+10682,Show the path of changesets in log view,new,enhancement,normal,next-major-releases,version control/log view
+10704,Plugin should ignore commits/revisions not in heads or tags,new,enhancement,normal,next-stable-1.4.x,plugin/git
+10719,"Abort: cannot follow file not in parent revision: ""tracext/hg/backend.py""",new,defect,normal,plugin - mercurial,plugin/mercurial
+10734,``` as a {{{ alternative,new,enhancement,normal,topic-wikiengine,wiki system
+10736,env.get_known_users() should also return session.last_visit,new,enhancement,normal,next-major-releases,general
+10739,Give Trac a sidebar widget provider,new,enhancement,normal,next-major-releases,web frontend
+10757,Use language specific starting day for date picker,new,enhancement,normal,next-major-releases,i18n
+10802,Cleanup Javascript code,new,task,normal,next-dev-1.7.x,general
+10813,diff view (tabular) whitespace off-by-one mistake,new,defect,normal,next-stable-1.4.x,version control/changeset view
+10847,contrib/trac-svn-hook to support TRAC_PARENT_ENV,new,enhancement,normal,next-stable-1.4.x,version control
+10852,Hooks for custom Javascript after expanding/collapsing an element,new,enhancement,normal,next-stable-1.4.x,general
+10866,"custom search query cannot do ""keywords contains x and y""",new,defect,normal,next-major-releases,query system
+10869,Recently changed items displayed in italic in reports,new,enhancement,normal,undecided,report system
+10870,"Download in other formats: Plain Text Link in 1.0 RC Used to view in browser, now downloads file",new,enhancement,normal,next-stable-1.4.x,web frontend
+10872,Add New Page and Link to current page,new,task,normal,unscheduled,wiki system
+10873,authzpolicy.conf can not include a common permission setup,new,enhancement,normal,undecided,admin/console
+10905,Enabled CommitTicketUpdater only for some repositories,new,enhancement,normal,next-major-releases,version control
+10914,Changeset columns overlapping,new,defect,normal,next-major-releases,version control/changeset view
+10915,Provide example repository paths,new,enhancement,normal,next-major-releases,admin/web
+10916,The date/time fields in Custom Query has problem with babel date format.,new,defect,normal,next-stable-1.4.x,i18n
+10933,Custom Query: Column with last status change,new,enhancement,normal,unscheduled,query system
+10948,[PATCH] Clone functionality should also be available for users with TICKET_CREATE permission,new,enhancement,normal,next-dev-1.7.x,ticket system
+10949,Priority sorting breaks when grouping is enabled,new,defect,normal,next-stable-1.4.x,report system
+10950,[hg] encoding setting is not used for files in hg,new,defect,normal,plugin - mercurial,plugin/mercurial
+10983,PATCH (and RFC) for IQueryPreprocessor extension point,new,enhancement,normal,next-major-releases,ticket system
+11022,milestone names containing space break layout,new,defect,normal,unscheduled,web frontend/tracd
+11024,Losslessly compress images,new,enhancement,normal,next-dev-1.7.x,general
+11025,Multi-project support,new,enhancement,normal,topic-multiproject,general
+11043,Add option to hide a commiter's email address,new,enhancement,normal,unscheduled,plugin/git
+11049,TracD on Windows 8 (x64),new,defect,normal,next-major-releases,web frontend/tracd
+11061,"TypeError: Git object id must be byte or a text string, not: int",new,defect,normal,next-major-releases,plugin/git
+11078,Perform fine-grained permission checks on resource in get_navigation_items,new,enhancement,normal,next-major-releases,wiki system
+11086,Filter options for roadmap,new,enhancement,normal,unscheduled,roadmap
+11091,Patch files with svn property changes are not rendered correctly,new,defect,normal,next-stable-1.4.x,rendering
+11114,Translation of Trac to Arabic/عربى [ar_EG],new,task,normal,translations,i18n
+11119,Indicate enabled or disabled status of plugins on web admin panel,new,enhancement,normal,next-major-releases,admin/web
+11125,Truncate very long text in the ticket properties dialog,new,enhancement,normal,next-stable-1.4.x,ticket system
+11133,Color overdue dates red,new,enhancement,normal,next-major-releases,general
+11141,Add ConfigSection to all sections,new,enhancement,normal,next-major-releases,general
+11142,Add download link in attachment section,new,enhancement,normal,next-major-releases,attachment
+11146,No Trac environment found at /var/www [Errno 2] No such file or directory: '/var/www/VERSION',new,task,normal,not applicable,web frontend
+11148,Generic ChangeListener events,new,enhancement,normal,next-dev-1.7.x,general
+11163,Option to set HTML title.,new,enhancement,normal,next-major-releases,wiki system
+11185,improve speed of TicketQuery for format=table,new,enhancement,normal,next-major-releases,query system
+11197,Batch Modification of Custom Text Area,new,enhancement,normal,undecided,ticket system
+11205,"""repository sync"" fails for Subversion repository with unicode path",new,defect,normal,next-stable-1.4.x,version control
+11206,Reduce join in query process,new,enhancement,normal,next-major-releases,query system
+11213,Updating Saved Query results does not save column order,new,defect,normal,next-major-releases,query system
+11240,ParsingError: File contains parsing errors: /home/svn/dbtg/mkhayati/conf/authz	[line 18]: '[]\n',new,defect,normal,next-stable-1.4.x,general
+11252,Adding Comments Description,new,enhancement,normal,unscheduled,general
+11263,AuthzPolicy should allow restricting access to only the most recent version of a resource,new,enhancement,normal,next-major-releases,general
+11271,Batch modify notification emails could present a better description of the property change,new,defect,normal,next-stable-1.4.x,notification
+11280,"""ValueError: incomplete format key"" occurs repeatedly",new,defect,normal,next-stable-1.4.x,general
+11287,Configurable regex (option) for TracStandalone server auth,new,defect,normal,undecided,web frontend/tracd
+11301,intermittent failure with notification test,new,defect,normal,next-major-releases,ticket system
+11305,`#!table` with `|| cell ||` is rendered as a broken table,new,defect,normal,next-stable-1.4.x,wiki system
+11321,browser doesn't highlite the last opened ticket,new,defect,normal,unscheduled,ticket system
+11323,WikiProcessor argument to limit line width,new,enhancement,normal,next-major-releases,wiki system
+11334,Timeline TracLinks with timezone offsets and without seconds resolution don't link to highlighted entries,new,defect,normal,next-stable-1.4.x,timeline
+11338,[Patch] Switch language based on URL prefix,new,enhancement,normal,undecided,i18n
+11339,Swappable Configuration implementations,new,enhancement,normal,next-dev-1.7.x,general
+11343,"Retarget tickets when executing the ""trac-admin milestone remove/completed"" commands",new,enhancement,normal,next-dev-1.7.x,admin/console
+11353,Hierarchical tree of repositories,new,enhancement,normal,next-major-releases,version control/browser
+11359,unintentional Camelcase links with slashes e.g. Bla/Blo,new,defect,normal,undecided,wiki system
+11372,sort for owner shall be case-insensitive,new,enhancement,normal,next-stable-1.4.x,query system
+11374,Image macro doesn't display image containing a colon,new,defect,normal,next-stable-1.4.x,wiki system
+11378,SQLite backend does not use auto-incrementing primary keys,new,defect,normal,next-major-releases,database backend
+11409,"Add a ""Versions released"" filter to the timeline",new,enhancement,normal,next-dev-1.7.x,timeline
+11425,Include edits to ticket comments as events in the timeline,new,enhancement,normal,undecided,timeline
+11428,Limit search realm when using quick search bar,new,enhancement,normal,undecided,search system
+11439,"Git changeset ""Branches"" property should link to branch logs",new,enhancement,normal,next-stable-1.4.x,version control/changeset view
+11445,Empty lines are invisible when hiding line column on browser view,new,defect,normal,next-stable-1.4.x,version control/browser
+11446,Cummulative diff view for non-contiguous changesets,new,enhancement,normal,next-major-releases,version control/changeset view
+11452,Implement a set_field workflow action,new,enhancement,normal,next-major-releases,ticket system
+11466,in-place modifying of ticket fields like in Apache Bloodhound Trac,new,enhancement,normal,undecided,ticket system
+11469,Add a custom field admin panel,new,enhancement,normal,1.7.1,ticket system
+11477,Extend ITicketManipulator (or similar) - Filter Comments,new,enhancement,normal,unscheduled,ticket system
+11508,"Add a ""permission copy"" command to TracAdmin",new,enhancement,normal,next-major-releases,admin/web
+11522,Unexpected block-quoted text,new,defect,normal,next-stable-1.4.x,wiki system
+11526,New style italics markup doesn't render correctly with CamelCase words,new,defect,normal,next-stable-1.4.x,wiki system
+11536,Wrong label on wiki diff view between initial version and version 1,new,defect,normal,next-stable-1.4.x,wiki system
+11574,Inconsistencies between datetime and datetimepicker close and focus behavior,new,defect,normal,next-stable-1.4.x,general
+11576,Cut and paste of external links leads to zero-width character in string,new,defect,normal,next-stable-1.4.x,general
+11577,Status is omitted in plain text emails,new,defect,normal,undecided,notification
+11585,Backport Apache Bloodhound web bootstrap handlers,new,enhancement,normal,undecided,web frontend
+11588,Backport Apache Bloodhound resource neighborhood implementation,new,enhancement,normal,undecided,general
+11612,ability to set and retain preferred comment order,new,defect,normal,next-stable-1.4.x,ticket system
+11637,Hide versions and components,new,enhancement,normal,next-major-releases,ticket system
+11641,"html5 support for ""export"" links in trac wiki",new,defect,normal,undecided,wiki system
+11644,Add an email domain blacklist/whitelist to prevent proprietary info leaks in notifications,new,enhancement,normal,unscheduled,ticket system
+11669,Change priority of tickets by dragging and dropping at the roadmap level,new,enhancement,normal,unscheduled,roadmap
+11670,Wiki edit page should more clearly show when page doesn't exist,new,enhancement,normal,next-stable-1.4.x,wiki system
+11675,IAttachmentStorage interface for pluggable attachment storage,new,enhancement,normal,next-dev-1.7.x,general
+11676,Reusable commenting module,new,enhancement,normal,next-major-releases,general
+11686,Official support for uwsgi,new,enhancement,normal,next-stable-1.4.x,web frontend
+11706,"""Can't synchronize"" warning message persists longer than it should",new,defect,normal,next-dev-1.7.x,version control
+11713,Repositories can still be added when no IRepositoryConnectors enabled,new,defect,normal,next-major-releases,admin/web
+11714,Log unknown attributes in ticket workflow,new,enhancement,normal,next-stable-1.4.x,ticket system
+11720,Table with inline diff can misposition the wiki editor textarea,new,defect,normal,next-stable-1.4.x,wiki system
+11722,Batch ticket delete,new,enhancement,normal,next-major-releases,query system
+11730,Don't quickjump if multiple words in search phrase,new,enhancement,normal,next-major-releases,search system
+11731,TracLinks notations for showing a wiki diff,new,enhancement,normal,unscheduled,wiki system
+11772,tracd js script resource loading intermittently crashes python,new,defect,normal,not applicable,database backend
+11814,Wiki edit form area height preference is not saved without an explicit preview,new,defect,normal,next-stable-1.4.x,wiki system
+11826,Optimize ticket.query.execute,new,enhancement,normal,next-major-releases,query system
+11861,Add email fields property to TicketSystem,new,enhancement,normal,next-dev-1.7.x,ticket system
+11862,Allow keywords to be highlighted in code WikiProcessor,new,enhancement,normal,next-major-releases,rendering
+11866,Export information on /about page as wiki markup and plain text,new,enhancement,normal,next-major-releases,general
+11871,Notification subscriber for @name mentions,new,enhancement,normal,next-dev-1.7.x,notification
+11879,Prevent ticket workflow hints from wrapping,new,enhancement,normal,next-major-releases,ticket system
+11887,List Ticket Attachments in TracNotification,new,enhancement,normal,next-major-releases,notification
+11889,On-site notifications,new,enhancement,normal,next-major-releases,notification
+11919,Make diff paths available in the UI.,new,enhancement,normal,next-major-releases,web frontend
+11937,Improve suggestion of similarly named pages,new,enhancement,normal,next-major-releases,wiki system
+11939,Workflow graph should account for user/group permissions,new,defect,normal,next-major-releases,ticket system
+11943,Ticket delete notifications,new,enhancement,normal,next-major-releases,notification
+11946,Allow multiple permissions to be assigned in single submit,new,enhancement,normal,next-major-releases,admin/web
+11953,Responsive design for user interface,new,enhancement,normal,undecided,general
+11957,Update relative date and time,new,enhancement,normal,undecided,general
+11959,"Add custom fields to ""Group results by"" drop down in Custom Query page.",new,enhancement,normal,next-major-releases,ticket system
+11963,#!td processor inserts unwanted <p>...</p>,new,defect,normal,next-major-releases,wiki system
+11968,Contextual navigation link to log view from changeset view,new,enhancement,normal,next-major-releases,general
+11985,Create a [database] section in trac.ini,new,task,normal,next-major-releases,database backend
+11989,Improve handling of option specified in multiple global (shared) configuration files,new,defect,normal,undecided,general
+11992,Allow git commit hashes to be abbreviated to 7 characters,new,defect,normal,next-major-releases,plugin/git
+12004,Replace uses of assert with exception-raising statements,new,enhancement,normal,next-major-releases,general
+12054,"Normalize newline of wiki text to CRLF on initenv, saving wiki and fetching wiki",new,defect,normal,next-stable-1.4.x,wiki system
+12066,contrib/checkwiki.py doesn't work in quoting blocks and wiki processors,new,defect,normal,next-stable-1.4.x,general
+12077,Ticket workflow should support negated permissions,new,enhancement,normal,next-major-releases,ticket system
+12097,Add a script to contrib for converting MySQL storage engine,new,enhancement,normal,next-stable-1.4.x,database backend
+12100,last_visit should update each time the user logs in,new,enhancement,normal,,general
+12119,Options not written to trac.ini when --inherit option used,new,enhancement,normal,next-major-releases,database backend
+12121,Subversion copies could show peg revision in browser view,new,defect,normal,next-major-releases,version control/browser
+12123,progress says 100% but it's not finished!,new,defect,normal,next-stable-1.4.x,ticket system
+12143,mysql + InnoDB + auth_cookie == Bad.,new,defect,normal,,database backend
+12153,"""< default >"" is incorrectly removed from title in timeline rss",new,defect,normal,next-stable-1.4.x,timeline
+12156,Ticket query renderer extension point,new,enhancement,normal,,query system
+12161,Add a Revision Log macro,new,enhancement,normal,next-dev-1.7.x,version control
+12162,Edit comment should be AJAX or standalone edit screen,new,enhancement,normal,next-major-releases,ticket system
+12165,List users included and excluded from notification,new,enhancement,normal,next-major-releases,notification
+12188,Suggest / autocomplete keywords in ticket properties,new,enhancement,normal,,ticket system
+12210,Show username and email in tooltip when hovering over a full name,new,enhancement,normal,next-major-releases,general
+12212,Order timeline filters alphabetically by label,new,enhancement,normal,next-major-releases,timeline
+12214,Description lists are unescapable,new,defect,normal,next-stable-1.4.x,wiki system
+12243,Consider adding an EditorConfig file,new,enhancement,normal,unscheduled,general
+12257,Add single-sign-on authentication as an optional component,new,enhancement,normal,next-major-releases,web frontend
+12261,Named reports,new,enhancement,normal,unscheduled,report system
+12262,CSS rules for wiki controls can conflict with wiki content,new,defect,normal,,wiki system
+12345,Conflicting form cookies on simultaneous first requests with same browser,new,defect,normal,,general
+12363,Support ucs2/utf16/utf32 charset and utf16_bin/utf32_bin collation in MySQL,new,enhancement,normal,next-stable-1.4.x,database backend
+12388,Help text output from TracAdmin should be wrapped,new,defect,normal,next-major-releases,admin/console
+12390,Attachment table primary key not unique when migrating from SQLite to MySQL,new,defect,normal,next-major-releases,attachment
+12406,Standardize nomenclature/options for cached repository,new,enhancement,normal,1.7.1,version control
+12422,Highlight specified changesets in Revision Log,new,enhancement,normal,,version control/log view
+12427,Firefox does not scroll to the proper comment heading,new,defect,normal,next-stable-1.4.x,web frontend
+12442,Support per-repository authz_file,new,enhancement,normal,next-major-releases,version control
+12449,Batch modify should block tickets when selecting unavailable action for the tickets,new,defect,normal,next-stable-1.4.x,ticket system
+12453,branch/tag/bookmark name should be decoded as utf-8,new,defect,normal,,plugin/mercurial
+12457,Some options not written to trac.ini when AccountManagerPlugin is installed,new,defect,normal,,general
+12458,"TypeError: coercing to Unicode: need string or buffer, NoneType found",new,defect,normal,next-stable-1.4.x,ticket system
+12460,Environment.shutdown() drops all connections for both self and other environments in connection pool,new,defect,normal,next-stable-1.4.x,database backend
+12461,Move svn_authz or rename to authz_policy,new,enhancement,normal,,version control
+12484,GitErrorSha is raised from /diff page when the git repository is empty,new,defect,normal,next-stable-1.4.x,version control/changeset view
+12485,Add an ITicketCommentProvider interface,new,enhancement,normal,next-major-releases,ticket system
+12495,RuntimeError: maximum recursion depth exceeded if [inherit] file option refers itself or circularly refers,new,defect,normal,next-stable-1.4.x,general
+12512,Support relative path in ImageMacro when rendering wiki page in repository browser,new,enhancement,normal,,wiki system
+12549,Provide option for blame to use merged history,new,enhancement,normal,next-major-releases,version control
+12567,Image macro should support protocol-relative URLs,new,enhancement,normal,next-dev-1.7.x,wiki system
+12570,Create a deprecated function decorator,new,enhancement,normal,next-major-releases,general
+12572,Add a download link to patch/diff renderer,new,enhancement,normal,next-major-releases,wiki system
+12575,Please improve documentation at TracNotification#Customizingthee-mailcontent,new,enhancement,normal,next-stable-1.4.x,notification
+12587,"""time_end"" and ""changetime_end"" custom fields conflict with text field for end of time and changetime in query filter",new,defect,normal,next-stable-1.4.x,query system
+12595,TracAdmin should label invalid permissions,new,enhancement,normal,next-major-releases,admin/console
+12596,AuthzPolicy should recursively expand groups,new,enhancement,normal,next-major-releases,general
+12598,Allow preference panel to be hidden from anonymous users,new,enhancement,normal,,general
+12646,Add group toggle functionality to timeline filters,new,defect,normal,next-dev-1.7.x,timeline
+12648,ValueError: invalid literal for int() with base 10: '700/',new,defect,normal,,attachment
+12662,"TicketQuery macro, add title and select parameter for table format",new,enhancement,normal,next-major-releases,query system
+12678,InterTrac link fails to link to a heading,new,defect,normal,next-stable-1.4.x,wiki system
+12679,"Add ""View blame prior to this change"" link to blame view",new,enhancement,normal,next-major-releases,version control/browser
+12685,"Add action menu for creating, deleting and modifying resources or parts thereof",new,enhancement,normal,next-major-releases,general
+12687,Provide additional hints when trac-admin repository commands are not provided a valid repository name,new,defect,normal,next-major-releases,version control
+12692,ExtensionOption raises exception when Component not enabled,new,defect,normal,,general
+12714,TypeError is raised when passing value to time field via query string of /newticket,new,defect,normal,next-stable-1.4.x,ticket system
+12717,Paginated attachment index,new,enhancement,normal,next-major-releases,attachment
+12733,Inconsistent linking for bold-formatted CamelCase words,new,defect,normal,next-stable-1.4.x,wiki system
+12741,Make WikiProcessors foldable,new,enhancement,normal,next-major-releases,wiki system
+12742,"Invalid log link does not render with ""missing"" class",new,defect,normal,next-stable-1.4.x,version control
+12743,Closed milestones always shown on batch modify form,new,defect,normal,next-stable-1.4.x,ticket system
+12745,Changeset view with single revision which has many files is so slow,new,enhancement,normal,next-stable-1.4.x,version control/changeset view
+12746,Add keyboard shortcut for blame from file view,new,enhancement,normal,next-major-releases,version control/browser
+12755,Some options on about page incorrectly showing as modified,new,defect,normal,next-stable-1.4.x,general
+12756,Pseudo anchors should allow whitespace and special characters,new,defect,normal,next-stable-1.4.x,wiki system
+12780,Save wiki expander state,new,enhancement,normal,next-major-releases,wiki system
+12786,Allow custom queries to be saved without granting REPORT_CREATE,new,enhancement,normal,next-major-releases,report system
+12792,"Configuration parsing in svn_authz module ignores user ""rem"" as a comment",new,defect,normal,next-stable-1.4.x,general
+12809,Add set_owner_default attribute to specify default value of set_owner in ticket-workflow,new,enhancement,normal,next-stable-1.4.x,ticket system
+12810,Add a TicketReport macro,new,enhancement,normal,next-major-releases,report system
+12825,OverflowError is raised from to_datetime(),new,defect,normal,next-stable-1.4.x,timeline
+12828,"Add a ""wiki set"" trac-admin command",new,enhancement,normal,next-major-releases,wiki system
+12844,Log TracLinks don't work as documented,new,defect,normal,next-stable-1.4.x,version control
+12848,Add an ifnull function to database connection classes,new,enhancement,normal,next-major-releases,database backend
+12854,"""rows"" can be used as custom field but rows=... condition in query doesn't work",new,defect,normal,next-major-releases,ticket system
+12893,Empty time values should be stored as NULL,new,defect,normal,next-dev-1.7.x,general
+12898,Add interface for changes on cached repository,new,enhancement,normal,next-dev-1.7.x,version control
+12900,Hierarchy-specific PageTemplates,new,enhancement,normal,next-major-releases,wiki system
+12903,Should catch KeyboardInterrupt when initenv is invoked via command line,new,defect,normal,next-stable-1.4.x,admin/console
+12907,Avoid duplicate references by commit_updater,new,enhancement,normal,,ticket system
+12909,Adding Ticket.select to bulk fetch records,new,enhancement,normal,next-stable-1.4.x,ticket system
+12912,AuthzPolicy fine permissions for timeline and search,new,defect,normal,next-dev-1.7.x,general
+12922,AuthzSourcePolicy doesn't deny viewing changeset on restricted path,new,defect,normal,next-stable-1.4.x,version control
+12925,Admin pages should add warnings rather than raising TracErrors,new,enhancement,normal,1.7.1,admin/web
+12928,Pass author to wiki_page_deleted and wiki_page_version_deleted,new,defect,normal,next-dev-1.7.x,wiki system
+12959,Blame links to trunk version of code,new,defect,normal,,general
+12969,query paging problem when num_items <= max and page > 1,new,defect,normal,next-stable-1.4.x,query system
+12997,"Sending email on ticket attachments with ""Replace existing attachment of the same name""",new,defect,normal,next-stable-1.4.x,notification
+12999,Render closed milestones in ticket query strike-through,new,enhancement,normal,next-stable-1.4.x,query system
+13011,Fixup whitespace on repository admin pages when saving changes,new,defect,normal,next-stable-1.4.x,admin/web
+13012,Allow direct docutils configuration,new,enhancement,normal,1.7.1,wiki system
+13014,Deprecate and remove IPermissionStore.get_users_with_permission,new,enhancement,normal,next-dev-1.7.x,general
+13019,Make dropdowns searchable / filterable,reopened,enhancement,normal,next-major-releases,web frontend
+13022,Reports can't be used with some realms,new,defect,normal,next-major-releases,report system
+13029,Attachment notifications despite Never notify: I update a ticket,new,defect,normal,next-dev-1.7.x,attachment
+13033,Colored test output,new,enhancement,normal,,general
+13050,Quickjump dropdown overflows due to Mercurial tags,new,defect,normal,plugin - mercurial,plugin/mercurial
+13051,The initenv process of trac-admin requires more than just 'psycopg2' and 'trac',reopened,defect,normal,,general
+13080,Add [trac] mysql_storage_engine option instead of editting my.cnf,new,enhancement,normal,next-dev-1.7.x,database backend
+13081,IWikiMacroProvider.is_inline should take macro name as argument,new,defect,normal,next-dev-1.7.x,general
+13083,Unified diff with contextall,new,enhancement,normal,undecided,version control/changeset view
+13089,"Custom query: filter by ""component starts with...""",new,enhancement,normal,,query system
+13092,Unified diff of changeset sometimes include wrong changes?,new,defect,normal,plugin - mercurial,plugin/mercurial
+13104,TracAdmin hotcopy fails with InnoDB backend,new,defect,normal,next-stable-1.4.x,general
+13169,GitNode.get_content() read entire of a file into memory even if it is huge,new,defect,normal,next-stable-1.4.x,plugin/git
+13175,Add video renderer in Trac core,new,enhancement,normal,next-stable-1.4.x,rendering
+13185,Keywords: remove duplicates and fixup separators,new,enhancement,normal,next-dev-1.7.x,ticket system
+13187,Text after diff block is not rendered,new,defect,normal,topic-wikiengine,wiki system
+13197,Redundant escaping exception messages from INavigationContributor components,new,defect,normal,next-stable-1.4.x,rendering
+13201,URL parameter defaults for milestone forms,new,enhancement,normal,next-major-releases,general
+13206,Add ICustomFieldTypeProvider interface,new,enhancement,normal,next-dev-1.7.x,ticket system
+13208,Add methods or property that formats default value for NotificationSystem.smtp_subject_prefix,new,enhancement,normal,next-dev-1.7.x,notification
+13215,Adding a repository does NOT trim trailing blanks,new,defect,normal,1.7.1,version control
+13222,Add conditions for ticket-custom format date,new,defect,normal,,general
+13226,Hard to find buttons of each report due to the border removed,new,defect,normal,next-stable-1.4.x,report system
+13231,Egg files without SOURCES.txt not displayed correctly on plugin admin page,new,defect,normal,1.6.1,general
+13235,Comment textarea doesn't get focus on loading when replying using Firefox and Edge,new,defect,normal,next-stable-1.4.x,rendering
+13270,Default value column doesn't wrap on TracIni page,new,defect,normal,1.6.1,general
+13273,"Add a ""trac-admin session rename"" command",new,enhancement,normal,1.7.1,admin/console
+13277,Add a macro for rendering code from the repository,new,enhancement,normal,next-dev-1.7.x,version control
+13279,Make cast method more robust,new,enhancement,normal,next-major-releases,database backend
+13282,Ticket timeline events can't be filtered using a permission policy,new,defect,normal,1.7.1,ticket system
+13283,"Per-realm always_{cc, bcc} options",new,enhancement,normal,next-dev-1.7.x,notification
+13287,MS Outlook improvements for 1.4.1 shows only empty fields,new,defect,normal,1.6.1,general
+13304,Implement code formatting and style checking tools,new,enhancement,normal,next-dev-1.7.x,general
+13318,Changeset with new file links to a different revision,new,defect,normal,plugin - mercurial,plugin/mercurial
+13332,Use pytidylib for HTML5 validation with jinjachecker,new,enhancement,normal,1.5.5,general
+13333,Release Trac 1.6,new,task,normal,1.6,general
+13349,Changesets are shown without repository name in search view,new,defect,normal,1.4.4,search system
+13350,Search word not highlighting when word's length < 3,new,defect,normal,next-stable-1.4.x,search system
+13358,Switch to using Github Actions from Travis CI,new,enhancement,normal,1.5.5,general
+13360,setlocale is not thread-safe but it is invoked from dispatch_request on multi-thread environment,new,defect,normal,next-stable-1.4.x,web frontend
+13389,Wikicreole line breaks not working in cases with colons?,new,defect,normal,,wiki system
+13390,tracd with SQLite crashes when concurrently reloading configuration and sending requests,new,defect,normal,next-stable-1.4.x,web frontend
+13402,Release Trac 1.5.4,new,task,normal,1.5.4,general
+13406,Replace jQuery UI Timepicker,new,enhancement,normal,1.5.4,web frontend
+65,Purge old versions of wiki pages,new,enhancement,low,unscheduled,admin/console
+2684,Appropriate name for TRAC_TEMPLATE_VARS (TracTemplateVars),new,defect,low,next-major-releases,general
+3037,Multiple bugs in trac.config,new,defect,low,next-major-releases,general
+8135,"[PATCH] Prev, Query, Next links at bottom of ticket page",new,enhancement,low,next-major-releases,ticket system
+8314,Dynamic Default Values,new,enhancement,low,next-major-releases,ticket system
+10175,Add author in reports and add permission REPORT_MODIFY_OWN,new,enhancement,low,undecided,report system
+10303,Faceted browsing in Search,new,enhancement,low,next-major-releases,search system
+10547,glitch with mergeinfo (recreation of merge source shown as eligible),new,defect,low,next-stable-1.4.x,version control/browser
+10620,'trac-admin changeset added' adds changeset as invalid user,new,defect,low,next-stable-1.4.x,contrib
+10666,Setting fine grained permissions using AuthzPolicy does not work,new,defect,low,next-major-releases,plugin/git
+10801,Can't download attached file when filename contain 'space'.,new,defect,low,next-stable-1.4.x,attachment
+10812,CSS conflict for .cp class in changeset view,new,defect,low,next-stable-1.4.x,version control/changeset view
+10917,check semi-automatic bug reporting for plugins,new,defect,low,next-major-releases,general
+11013,Unable to hotcopy SQLite database on Windows if >1Gb,new,defect,low,next-major-releases,admin/console
+11044,Include Mercurial support in Trac distribution,new,enhancement,low,plugin - mercurial,plugin/mercurial
+11268,Obfuscation of email address is not performed on search results,new,defect,low,unscheduled,search system
+11304,Cannot link a attachment with the name started with a hash character,new,defect,low,next-stable-1.4.x,attachment
+11759,TypeError raises when non existent comment of ticket is modified,new,defect,low,next-stable-1.4.x,ticket system
+11816,Some comment TracLinks are incorrectly displayed as missing,new,defect,low,next-major-releases,wiki system
+11977,Attachment title in search results does not render closed ticket with strikethrough,new,defect,low,next-major-releases,attachment
+12238,InterWiki prefix with http works with more symbols then links defined without http,new,defect,low,next-stable-1.4.x,rendering
+12367,Error message with untranslated text when removing no selected items,new,defect,low,next-stable-1.4.x,ticket system
+12380,No scrolling on repository browser with j/k keys,new,defect,low,next-stable-1.4.x,version control/browser
+12413,support for git-lfs and git-annex,new,enhancement,low,unscheduled,plugin/git
+12459,"Milestone edit page says 'retargeted to milestone ""None""' (None milestone is missing)",new,defect,low,next-stable-1.4.x,general
+12984,Incorrect placement of line breaks inside HTML <pre> tags,new,defect,low,,wiki system
+13101,Unified diff in git format?,new,enhancement,low,next-major-releases,version control/changeset view
+13223,"""All Tickets Reported by Me"" should mention if a ticket is open or closed",new,enhancement,low,next-major-releases,ticket system
+13346,Styling issue on search.css,new,enhancement,low,next-stable-1.4.x,search system
+13414,Support PyPy,new,enhancement,low,undecided,general
+11232,The favicon could show the status of the page,new,enhancement,lowest,unscheduled,rendering
+12774,Separator line is shown twice,new,defect,lowest,next-major-releases,notification
