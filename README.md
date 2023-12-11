@@ -1,1 +1,1 @@
-# https-about.fab.com https://about.facebook.com
+# https-about.fab.com https://about.facebook.com https://opensource.org/license/mit
