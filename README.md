@@ -1,3 +1,3 @@
-https://Edits.com
+https://Edits.org
 
 
