@@ -1,3 +1,3 @@
-https://www.threads.com@jaysonscottheise
+https://www.threads.com/@jaysonscottheise
 
 
