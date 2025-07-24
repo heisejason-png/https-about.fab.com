@@ -1,3 +1,3 @@
-https://www.threads.net@jaysonscottheise?invite=0
+https://www.threads.com@jaysonscottheise
 
 
