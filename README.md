@@ -1,3 +1,3 @@
-https://shanazelstar.atlassian.net
+Created by Jason Scott Heise
 
 
